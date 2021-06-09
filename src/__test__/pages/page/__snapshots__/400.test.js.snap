@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`400 page should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-full"
+    >
+      <h1
+        id="error-heading"
+      >
+        Something went wrong
+      </h1>
+    </div>
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <p
+        id="temporary-problem-message"
+      >
+        Sorry, an error has occurred with the service. This is usually a temporary problem, but if it continues you should let our Helpdesk know.
+        <br />
+        <br />
+        If you need to contact the Helpdesk:
+        <br />
+        <br />
+        You may first need to 
+        <a
+          href="/ras/ip"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+        >
+          find your IP address (opens in new window)
+        </a>
+         and enter that as well as your Correlation ID: ead1c4fe in ‘Your message for us’ when you 
+        <a
+          href="https://www.nhs.uk/contact-us/covid-risk"
+          id="helpdesk-link"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+        >
+          complete the helpdesk contact form (opens in new window)
+        </a>
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

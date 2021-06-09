@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`503 page should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-full"
+    >
+      <h1
+        id="error-heading"
+      >
+        Service unavailable
+      </h1>
+    </div>
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <p
+        style="white-space: pre-wrap;"
+      >
+        Sorry, but this service is currently unavailable whilst a new version is being released. It will be available again soon. Please try again later.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

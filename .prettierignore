@@ -1,0 +1,13 @@
+.*/
+node_modules/
+reports/
+tmp/
+coverage/
+dist/
+sls-next-build/
+package.json
+*.har
+
+# Generated / special files
+test/integration/mock-server/risk-stratification-aws-canonical.yaml
+src/resources/open-source/licenses-npm.json

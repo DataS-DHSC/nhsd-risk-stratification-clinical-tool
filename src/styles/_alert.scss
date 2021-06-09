@@ -1,0 +1,14 @@
+.nhsuk-global-alert {
+  -webkit-font-smoothing: antialiased;
+  color: $nhsuk-text-color;
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: inherit;
+  background-color: $color_nhsuk-yellow;
+  padding-bottom: 24px;
+  padding-top: 24px;
+
+  p {
+    margin-bottom: 0;
+  }
+}

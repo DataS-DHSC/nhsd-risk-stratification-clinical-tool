@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cookies settings page should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <h1
+        class="nhsuk-heading-l"
+      >
+        Change your cookie settings
+      </h1>
+      <noscript />
+      <form
+        method="post"
+        novalidate=""
+      >
+        <div
+          class="nhsuk-form-group"
+        >
+          <p
+            class="nhsuk-body"
+          >
+            Let us know which cookies we can use. We'll use a cookie to save your settings.
+          </p>
+          <fieldset
+            class="nhsuk-fieldset"
+          >
+            <legend
+              class="nhsuk-fieldset__legend nhsuk-fieldset__legend--s"
+            >
+              Cookies that measure website use (analytics cookies)
+            </legend>
+            <p>
+              These cookies store information about how you use our website, such as the links you click on. We use them to help make our website better.
+            </p>
+            <div
+              class="nhsuk-radios"
+            >
+              <div
+                class="nhsuk-radios__item"
+              >
+                <input
+                  class="nhsuk-radios__input"
+                  id="analytics-cookies-yes"
+                  name="analytics-cookies"
+                  type="radio"
+                  value="yes"
+                />
+                <label
+                  class="nhsuk-label nhsuk-radios__label"
+                  for="analytics-cookies-yes"
+                >
+                  Yes
+                </label>
+              </div>
+              <div
+                class="nhsuk-radios__item"
+              >
+                <input
+                  checked=""
+                  class="nhsuk-radios__input"
+                  id="analytics-cookies-no"
+                  name="analytics-cookies"
+                  type="radio"
+                  value="no"
+                />
+                <label
+                  class="nhsuk-label nhsuk-radios__label"
+                  for="analytics-cookies-no"
+                >
+                  No
+                </label>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        <button
+          class="nhsuk-button"
+          data-module="nhsuk-button"
+          id="save-cookie-settings"
+          type="submit"
+        >
+          Save cookie settings
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

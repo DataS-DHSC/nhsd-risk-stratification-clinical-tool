@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Manufacturer should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-summary-list__row"
+  >
+    <dt
+      class="nhsuk-summary-list__key legal-list__title"
+    >
+      <img
+        alt="Manufacturer"
+        src="/icons/ce-manufacturer.svg"
+      />
+    </dt>
+    <dt
+      class="nhsuk-summary-list__key"
+    >
+      Manufacturer
+    </dt>
+  </div>
+</DocumentFragment>
+`;

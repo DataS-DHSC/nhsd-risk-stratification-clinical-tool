@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should match snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <h1
+        id="qcovid-prediction-service-heading"
+      >
+        QCovid® Risk Prediction Service
+      </h1>
+      <p>
+        Use this service to:
+      </p>
+      <ul>
+        <li>
+          Ensure patients and public know and understand their risk status
+        </li>
+        <li>
+          Provide clinical support to the most vulnerable individuals*
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

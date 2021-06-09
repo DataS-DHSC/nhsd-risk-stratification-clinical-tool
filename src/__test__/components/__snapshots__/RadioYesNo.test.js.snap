@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioYesNo should take its value from prevData rather than the default 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-form-group"
+  >
+    <fieldset
+      class="nhsuk-fieldset"
+    >
+      <legend
+        class="nhsuk-fieldset__legend"
+        id="asthma-radios-label"
+      >
+        Asthma
+      </legend>
+      <div
+        class="nhsuk-form-group"
+      >
+        <div
+          class="nhsuk-radios nhsuk-radios--inline"
+          id="asthma"
+          role="radiogroup"
+        >
+          <div
+            class="nhsuk-radios__item"
+          >
+            <input
+              aria-labelledby="asthma-yes--label"
+              class="nhsuk-radios__input"
+              id="asthma-yes"
+              name="asthma"
+              required=""
+              type="radio"
+              value="true"
+            />
+            <label
+              class="nhsuk-label nhsuk-radios__label"
+              for="asthma-yes"
+              id="asthma-yes--label"
+            >
+              Yes
+            </label>
+          </div>
+          <div
+            class="nhsuk-radios__item"
+          >
+            <input
+              aria-labelledby="asthma-no--label"
+              checked=""
+              class="nhsuk-radios__input"
+              id="asthma-no"
+              name="asthma"
+              required=""
+              type="radio"
+              value="false"
+            />
+            <label
+              class="nhsuk-label nhsuk-radios__label"
+              for="asthma-no"
+              id="asthma-no--label"
+            >
+              No
+            </label>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`RadioYesNo should take the default value when the field is not in prevData 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-form-group"
+  >
+    <fieldset
+      class="nhsuk-fieldset"
+    >
+      <legend
+        class="nhsuk-fieldset__legend"
+        id="asthma-radios-label"
+      >
+        Asthma
+      </legend>
+      <div
+        class="nhsuk-form-group"
+      >
+        <div
+          class="nhsuk-radios nhsuk-radios--inline"
+          id="asthma"
+          role="radiogroup"
+        >
+          <div
+            class="nhsuk-radios__item"
+          >
+            <input
+              aria-labelledby="asthma-yes--label"
+              checked=""
+              class="nhsuk-radios__input"
+              id="asthma-yes"
+              name="asthma"
+              required=""
+              type="radio"
+              value="true"
+            />
+            <label
+              class="nhsuk-label nhsuk-radios__label"
+              for="asthma-yes"
+              id="asthma-yes--label"
+            >
+              Yes
+            </label>
+          </div>
+          <div
+            class="nhsuk-radios__item"
+          >
+            <input
+              aria-labelledby="asthma-no--label"
+              class="nhsuk-radios__input"
+              id="asthma-no"
+              name="asthma"
+              required=""
+              type="radio"
+              value="false"
+            />
+            <label
+              class="nhsuk-label nhsuk-radios__label"
+              for="asthma-no"
+              id="asthma-no--label"
+            >
+              No
+            </label>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+</DocumentFragment>
+`;

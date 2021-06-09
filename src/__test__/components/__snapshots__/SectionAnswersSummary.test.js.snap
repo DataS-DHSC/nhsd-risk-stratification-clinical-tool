@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionAnswersSummary should match snapshot if data is from multiradio 1`] = `
+<DocumentFragment>
+  <dl
+    class="nhsuk-summary-list"
+  >
+    <div
+      class="nhsuk-summary-list__row"
+      id="summary-row-testFieldMultiRadio"
+    >
+      <dt
+        class="nhsuk-summary-list__key"
+      >
+        multiradio label
+      </dt>
+      <dd
+        class="nhsuk-summary-list__value"
+      >
+        option2RadioLabel
+      </dd>
+      <dd
+        class="nhsuk-summary-list__actions"
+      >
+        <button
+          aria-disabled="false"
+          aria-label="Change multiradio label from option2RadioLabel"
+          class="nhsuk-button change-button"
+          formaction="test_url"
+          id="change-button-testFieldMultiRadio"
+          type="submit"
+        >
+          Change
+        </button>
+      </dd>
+    </div>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`SectionAnswersSummary should match snapshot if data is from radio input 1`] = `
+<DocumentFragment>
+  <dl
+    class="nhsuk-summary-list"
+  >
+    <div
+      class="nhsuk-summary-list__row"
+      id="summary-row-testFieldRadioYes"
+    >
+      <dt
+        class="nhsuk-summary-list__key"
+      >
+        radio label yes
+      </dt>
+      <dd
+        class="nhsuk-summary-list__value"
+      >
+        Yes
+      </dd>
+      <dd
+        class="nhsuk-summary-list__actions"
+      >
+        <button
+          aria-disabled="false"
+          aria-label="Change radio label yes from Yes"
+          class="nhsuk-button change-button"
+          formaction="test_url"
+          id="change-button-testFieldRadioYes"
+          type="submit"
+        >
+          Change
+        </button>
+      </dd>
+    </div>
+    <div
+      class="nhsuk-summary-list__row"
+      id="summary-row-testFieldRadioNo"
+    >
+      <dt
+        class="nhsuk-summary-list__key"
+      >
+        radio label no
+      </dt>
+      <dd
+        class="nhsuk-summary-list__value"
+      >
+        No
+      </dd>
+      <dd
+        class="nhsuk-summary-list__actions"
+      >
+        <button
+          aria-disabled="false"
+          aria-label="Change radio label no from No"
+          class="nhsuk-button change-button"
+          formaction="test_url"
+          id="change-button-testFieldRadioNo"
+          type="submit"
+        >
+          Change
+        </button>
+      </dd>
+    </div>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`SectionAnswersSummary should match snapshot if data is from select input 1`] = `
+<DocumentFragment>
+  <dl
+    class="nhsuk-summary-list"
+  >
+    <div
+      class="nhsuk-summary-list__row"
+      id="summary-row-testFieldSelect"
+    >
+      <dt
+        class="nhsuk-summary-list__key"
+      >
+        select label
+      </dt>
+      <dd
+        class="nhsuk-summary-list__value"
+      >
+        option21Select
+      </dd>
+      <dd
+        class="nhsuk-summary-list__actions"
+      >
+        <button
+          aria-disabled="false"
+          aria-label="Change select label from option21Select"
+          class="nhsuk-button change-button"
+          formaction="test_url"
+          id="change-button-testFieldSelect"
+          type="submit"
+        >
+          Change
+        </button>
+      </dd>
+    </div>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`SectionAnswersSummary should match snapshot if data is from text input 1`] = `
+<DocumentFragment>
+  <dl
+    class="nhsuk-summary-list"
+  >
+    <div
+      class="nhsuk-summary-list__row"
+      id="summary-row-testFieldText"
+    >
+      <dt
+        class="nhsuk-summary-list__key"
+      >
+        label text
+      </dt>
+      <dd
+        class="nhsuk-summary-list__value"
+      >
+        testValue
+      </dd>
+      <dd
+        class="nhsuk-summary-list__actions"
+      >
+        <button
+          aria-disabled="false"
+          aria-label="Change label text from testValue"
+          class="nhsuk-button change-button"
+          formaction="test_url"
+          id="change-button-testFieldText"
+          type="submit"
+        >
+          Change
+        </button>
+      </dd>
+    </div>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`SectionAnswersSummary should match snapshot when validation fails 1`] = `
+<DocumentFragment>
+  <dl
+    class="nhsuk-summary-list"
+  >
+    <div
+      class="nhsuk-summary-list__row"
+      id="summary-row-testFieldText"
+    >
+      <dt
+        class="nhsuk-summary-list__key"
+      >
+        label text
+      </dt>
+      <dd
+        class="nhsuk-summary-list__value nhsuk-validation-error"
+      >
+        testValue (validation message)
+      </dd>
+      <dd
+        class="nhsuk-summary-list__actions"
+      >
+        <button
+          aria-disabled="false"
+          aria-label="Change label text from testValue (validation message)"
+          class="nhsuk-button change-button"
+          formaction="test_url"
+          id="change-button-testFieldText"
+          type="submit"
+        >
+          Change
+        </button>
+      </dd>
+    </div>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`SectionAnswersSummary should match snapshot when value equals default 1`] = `
+<DocumentFragment>
+  <dl
+    class="nhsuk-summary-list"
+  >
+    <div
+      class="nhsuk-summary-list__row"
+      id="summary-row-testFieldText"
+    >
+      <dt
+        class="nhsuk-summary-list__key"
+      >
+        label text
+      </dt>
+      <dd
+        class="nhsuk-summary-list__value"
+      />
+      <dd
+        class="nhsuk-summary-list__actions"
+      >
+        <button
+          aria-disabled="false"
+          aria-label="Change label text from "
+          class="nhsuk-button change-button"
+          formaction="test_url"
+          id="change-button-testFieldText"
+          type="submit"
+        >
+          Change
+        </button>
+      </dd>
+    </div>
+  </dl>
+</DocumentFragment>
+`;

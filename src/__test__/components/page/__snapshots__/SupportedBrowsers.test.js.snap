@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SupportedBrowsers should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <h1
+        id="supported-browsers-heading"
+      >
+        Browsers Supported by the COVID-19 Clinical Risk Assessment Tool
+      </h1>
+    </div>
+  </div>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <table
+        id="supported-browsers-table"
+      >
+        <tbody>
+          <tr>
+            <th>
+              Operating System
+            </th>
+            <th>
+              Browser
+            </th>
+          </tr>
+          <tr>
+            <td>
+              Windows
+            </td>
+            <td>
+              Internet Explorer 11
+            </td>
+          </tr>
+          <tr>
+            <td />
+            <td>
+              Edge 84 (latest)
+            </td>
+          </tr>
+          <tr>
+            <td />
+            <td>
+              Chrome 86 (latest)
+            </td>
+          </tr>
+          <tr>
+            <td />
+            <td>
+              Firefox 82 (latest)
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Mac OS
+            </td>
+            <td>
+              Safari 14.0 (latest)
+            </td>
+          </tr>
+          <tr>
+            <td />
+            <td>
+              Chrome 86 (latest)
+            </td>
+          </tr>
+          <tr>
+            <td>
+              iOS
+            </td>
+            <td>
+              Safari 14.0 (latest)
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div
+    class="nhsuk-review-date"
+    id="review-date"
+  >
+    <p
+      class="nhsuk-body-s"
+    >
+      Page last reviewed: 1 December 2020
+      <br />
+      Next review due: 23 December 2023
+    </p>
+  </div>
+</DocumentFragment>
+`;

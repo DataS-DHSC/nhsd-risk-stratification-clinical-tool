@@ -1,0 +1,2543 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check-your-answers snapshot should be built from context data when client side routing enabled 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <h1
+        id="check-answers-heading"
+      >
+        Check your answers
+      </h1>
+      <p
+        id="check-information-is-correct-paragraph"
+      >
+        This is the information that will be used to generate the patient's result. Please check that each answer you have given is correct.
+      </p>
+      <form
+        action="/ras/qcovid/score"
+        id="check-answers-form"
+        method="POST"
+      >
+        <input
+          name="field1"
+          type="hidden"
+          value="field1ContextData"
+        />
+        <input
+          name="field2"
+          type="hidden"
+          value="field1ContextData"
+        />
+        <input
+          name="headers"
+          type="hidden"
+          value="{\\"correlationId\\":\\"5383302b-f729-4076-97d5-c428b26ef5dd\\"}"
+        />
+        <input
+          name="csrfToken"
+          type="hidden"
+          value="csrfToken"
+        />
+        <h2
+          id="answer-list-patient-details-heading"
+        >
+          Patient details
+        </h2>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-age"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Age (19-100)
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value nhsuk-validation-error"
+            >
+               (Please fill in this field)
+            </dd>
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Age (19-100) from  (Please fill in this field)"
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/patient-details"
+                id="change-button-age"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-sex"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Sex registered at birth
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Sex registered at birth from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/patient-details"
+                id="change-button-sex"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-ethnic-group"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Ethnicity
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Ethnicity from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/patient-details"
+                id="change-button-ethnic-group"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-housing"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Housing category
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Housing category from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/patient-details"
+                id="change-button-housing"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-postcode"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Postcode
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Postcode from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/patient-details"
+                id="change-button-postcode"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-calculate-the-patient's-body-mass-index-(bmi)-heading"
+        >
+          Calculate the patient's body mass index (BMI)
+        </h2>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-height"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Height in cm
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Height in centimetres from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/body-mass-index"
+                id="change-button-height"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-weight"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Weight in kg
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Weight in kilograms from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/body-mass-index"
+                id="change-button-weight"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-cardiovascular-diseases-heading"
+        >
+          Cardiovascular diseases
+        </h2>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-atrial-fibrillation"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has atrial fibrillation
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has atrial fibrillation from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/cardiovascular-diseases"
+                id="change-button-has-atrial-fibrillation"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-coronary-heart-disease"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has coronary heart disease
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has coronary heart disease from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/cardiovascular-diseases"
+                id="change-button-has-coronary-heart-disease"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-heart-failure"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has heart failure
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has heart failure from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/cardiovascular-diseases"
+                id="change-button-has-heart-failure"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-congenital-heart-disease"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has congenital heart disease or has had surgery for it in the past
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has congenital heart disease or has had surgery for it in the past from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/cardiovascular-diseases"
+                id="change-button-has-congenital-heart-disease"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-peripheral-vascular-disease"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has peripheral vascular disease
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has peripheral vascular disease from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/cardiovascular-diseases"
+                id="change-button-has-peripheral-vascular-disease"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-respiratory-diseases-and-treatments-heading"
+        >
+          Respiratory diseases and treatments
+        </h2>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-asthma"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has asthma
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has asthma from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/respiratory-diseases-and-treatments"
+                id="change-button-has-asthma"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-taking-anti-leukotriene-or-beta2-agonists"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Is taking anti-leukotriene or long acting beta2-agonists (LABA)
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Is taking anti-leukotriene or long acting beta2-agonists (LABA) from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/respiratory-diseases-and-treatments"
+                id="change-button-taking-anti-leukotriene-or-beta2-agonists"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-chronic-obstructive-pulmonary-disease"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has chronic obstructive pulmonary disease (COPD)
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has chronic obstructive pulmonary disease (COPD) from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/respiratory-diseases-and-treatments"
+                id="change-button-has-chronic-obstructive-pulmonary-disease"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-cystic-fibrosis-bronchiectasis-or-alveolitis"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has cystic fibrosis, bronchiectasis or alveolitis
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has cystic fibrosis, bronchiectasis or alveolitis from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/respiratory-diseases-and-treatments"
+                id="change-button-has-cystic-fibrosis-bronchiectasis-or-alveolitis"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-pulmonary-hypertension-or-fibrosis"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has pulmonary hypertension or pulmonary fibrosis
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has pulmonary hypertension or pulmonary fibrosis from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/respiratory-diseases-and-treatments"
+                id="change-button-has-pulmonary-hypertension-or-fibrosis"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-metabolic,-renal-&-liver-conditions-heading"
+        >
+          Metabolic, renal & liver conditions
+        </h2>
+        <h3
+          id="answer-list-metabolic-heading"
+        >
+          Metabolic
+        </h3>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-diabetes-type"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Diabetes type
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Diabetes type from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/metabolic-renal-liver-conditions"
+                id="change-button-diabetes-type"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-fracture-of-hip"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had a prior osteoporotic fracture of the hip, wrist, spine or humerus
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had a prior osteoporotic fracture of the hip, wrist, spine or humerus from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/metabolic-renal-liver-conditions"
+                id="change-button-fracture-of-hip"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h3
+          id="answer-list-renal-heading"
+        >
+          Renal
+        </h3>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-kidney-disease"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Kidney disease
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Kidney disease from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/metabolic-renal-liver-conditions"
+                id="change-button-kidney-disease"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h3
+          id="answer-list-liver-heading"
+        >
+          Liver
+        </h3>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-liver"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has cirrhosis of the liver
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has cirrhosis of the liver from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/metabolic-renal-liver-conditions"
+                id="change-button-liver"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-neurological-&-psychiatric-conditions-heading"
+        >
+          Neurological & psychiatric conditions
+        </h2>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-epilepsy"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has epilepsy
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has epilepsy from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-has-epilepsy"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-tia"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had a stroke or TIA
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had a stroke or TIA from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-tia"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-motor-neurone-multiple-sclerosis-myasthenia"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has motor neurone disease, multiple sclerosis, myasthenia, or Huntington's disease
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has motor neurone disease, multiple sclerosis, myasthenia, or Huntington's disease from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-has-motor-neurone-multiple-sclerosis-myasthenia"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-parkinsons-disease"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has Parkinson's disease
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has Parkinson's disease from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-has-parkinsons-disease"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-dementia"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has dementia
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has dementia from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-has-dementia"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-cerebral-palsy"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has cerebral palsy
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has cerebral palsy from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-has-cerebral-palsy"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-learning-disability-or-downs-syndrome"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has a learning disability or Down's syndrome
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has a learning disability or Down's syndrome from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-learning-disability-or-downs-syndrome"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-a-severe-mental-illness"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has a severe mental illness
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has a severe mental illness from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-has-a-severe-mental-illness"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-immune-&-haematological-conditions-heading"
+        >
+          Immune & haematological conditions
+        </h2>
+        <h3
+          id="answer-list-autoimmune-heading"
+        >
+          Autoimmune
+        </h3>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-rheumatoid-arthritis-or-sle"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has rheumatoid arthritis, SLE or a seronegative arthritis such as Ankylosing Spondylitis
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has rheumatoid arthritis, SLE or a seronegative arthritis such as Ankylosing Spondylitis from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immune-and-haematological-conditions"
+                id="change-button-rheumatoid-arthritis-or-sle"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h3
+          id="answer-list-haematological-and-immunodeficiency-heading"
+        >
+          Haematological and immunodeficiency
+        </h3>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-sickle-cell-or-immune-deficiency"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has a condition that means they may be immunosuppressed
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has a condition that means they may be immunosuppressed from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immune-and-haematological-conditions"
+                id="change-button-sickle-cell-or-immune-deficiency"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-thrombosis-or-pulmonary-embolus"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had thrombosis or pulmonary embolus
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had thrombosis or pulmonary embolus from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immune-and-haematological-conditions"
+                id="change-button-thrombosis-or-pulmonary-embolus"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-immunosuppressants,-cancer-conditions-&-treatments-heading"
+        >
+          Immunosuppressants, cancer conditions & treatments
+        </h2>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-lung-or-oral-cancer"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has lung or oral cancer
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has lung or oral cancer from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-lung-or-oral-cancer"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-solid-organ-transplant"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had a solid organ transplant (lung, liver, stomach, pancreas, spleen, heart or thymus)
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had a solid organ transplant (lung, liver, stomach, pancreas, spleen, heart or thymus) from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-solid-organ-transplant"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-cancer-of-the-blood-or-bone-marrow"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has a cancer of the blood or bone marrow such as leukaemia, myelodysplastic syndromes, lymphoma or myeloma and is at any stage of treatment
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has a cancer of the blood or bone marrow such as leukaemia, myelodysplastic syndromes, lymphoma or myeloma and is at any stage of treatment from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-cancer-of-the-blood-or-bone-marrow"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-bone-marrow-or-stem-cell-transplant"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had bone marrow or stem cell transplant in the last 6 months
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had bone marrow or stem cell transplant in the last 6 months from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-bone-marrow-or-stem-cell-transplant"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-had-radiotherapy-last-6-months"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had radiotherapy in the last 6 months
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had radiotherapy in the last 6 months from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-had-radiotherapy-last-6-months"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-chemotherapy-in-the-last-12-months"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had chemotherapy in the last 12 months
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had chemotherapy in the last 12 months from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-chemotherapy-in-the-last-12-months"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-prescribed-oral-prednisolone-steroids"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has been prescribed oral prednisolone
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has been prescribed oral prednisolone from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-prescribed-oral-prednisolone-steroids"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-prescribed-immunosuppressants"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has been prescribed immunosuppressants
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has been prescribed immunosuppressants from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-prescribed-immunosuppressants"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="generate-risk-score-heading"
+        >
+          Now generate the patient's result
+        </h2>
+        <p
+          id="submit-disclaimer-paragraph"
+        >
+          By submitting this notification you are confirming that, to the best of your knowledge, the details you are providing are correct.
+        </p>
+        <button
+          aria-disabled="true"
+          class="nhsuk-button nhsuk-button--disabled nhsuk-u-margin-bottom-8"
+          disabled=""
+          id="continue-button"
+          type="submit"
+        >
+          Accept and generate result
+        </button>
+      </form>
+    </div>
+  </div>
+  <div
+    class="nhsuk-review-date"
+    id="review-date"
+  >
+    <p
+      class="nhsuk-body-s"
+    >
+      Page last reviewed: 1 December 2020
+      <br />
+      Next review due: 23 December 2023
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`check-your-answers snapshot should be built from prevData when client side routing disabled 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <h1
+        id="check-answers-heading"
+      >
+        Check your answers
+      </h1>
+      <p
+        id="check-information-is-correct-paragraph"
+      >
+        This is the information that will be used to generate the patient's result. Please check that each answer you have given is correct.
+      </p>
+      <form
+        action="/ras/qcovid/score"
+        id="check-answers-form"
+        method="POST"
+      >
+        <input
+          name="field1"
+          type="hidden"
+          value="field1prevData"
+        />
+        <input
+          name="field2"
+          type="hidden"
+          value="field2prevData"
+        />
+        <input
+          name="csrfToken"
+          type="hidden"
+          value="csrfToken"
+        />
+        <input
+          name="headers"
+          type="hidden"
+          value="{\\"correlationId\\":\\"5383302b-f729-4076-97d5-c428b26ef5dd\\"}"
+        />
+        <h2
+          id="answer-list-patient-details-heading"
+        >
+          Patient details
+        </h2>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-age"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Age (19-100)
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value nhsuk-validation-error"
+            >
+               (Please fill in this field)
+            </dd>
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Age (19-100) from  (Please fill in this field)"
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/patient-details"
+                id="change-button-age"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-sex"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Sex registered at birth
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Sex registered at birth from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/patient-details"
+                id="change-button-sex"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-ethnic-group"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Ethnicity
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Ethnicity from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/patient-details"
+                id="change-button-ethnic-group"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-housing"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Housing category
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Housing category from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/patient-details"
+                id="change-button-housing"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-postcode"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Postcode
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Postcode from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/patient-details"
+                id="change-button-postcode"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-calculate-the-patient's-body-mass-index-(bmi)-heading"
+        >
+          Calculate the patient's body mass index (BMI)
+        </h2>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-height"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Height in cm
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Height in centimetres from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/body-mass-index"
+                id="change-button-height"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-weight"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Weight in kg
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Weight in kilograms from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/body-mass-index"
+                id="change-button-weight"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-cardiovascular-diseases-heading"
+        >
+          Cardiovascular diseases
+        </h2>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-atrial-fibrillation"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has atrial fibrillation
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has atrial fibrillation from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/cardiovascular-diseases"
+                id="change-button-has-atrial-fibrillation"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-coronary-heart-disease"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has coronary heart disease
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has coronary heart disease from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/cardiovascular-diseases"
+                id="change-button-has-coronary-heart-disease"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-heart-failure"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has heart failure
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has heart failure from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/cardiovascular-diseases"
+                id="change-button-has-heart-failure"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-congenital-heart-disease"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has congenital heart disease or has had surgery for it in the past
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has congenital heart disease or has had surgery for it in the past from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/cardiovascular-diseases"
+                id="change-button-has-congenital-heart-disease"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-peripheral-vascular-disease"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has peripheral vascular disease
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has peripheral vascular disease from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/cardiovascular-diseases"
+                id="change-button-has-peripheral-vascular-disease"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-respiratory-diseases-and-treatments-heading"
+        >
+          Respiratory diseases and treatments
+        </h2>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-asthma"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has asthma
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has asthma from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/respiratory-diseases-and-treatments"
+                id="change-button-has-asthma"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-taking-anti-leukotriene-or-beta2-agonists"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Is taking anti-leukotriene or long acting beta2-agonists (LABA)
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Is taking anti-leukotriene or long acting beta2-agonists (LABA) from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/respiratory-diseases-and-treatments"
+                id="change-button-taking-anti-leukotriene-or-beta2-agonists"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-chronic-obstructive-pulmonary-disease"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has chronic obstructive pulmonary disease (COPD)
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has chronic obstructive pulmonary disease (COPD) from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/respiratory-diseases-and-treatments"
+                id="change-button-has-chronic-obstructive-pulmonary-disease"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-cystic-fibrosis-bronchiectasis-or-alveolitis"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has cystic fibrosis, bronchiectasis or alveolitis
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has cystic fibrosis, bronchiectasis or alveolitis from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/respiratory-diseases-and-treatments"
+                id="change-button-has-cystic-fibrosis-bronchiectasis-or-alveolitis"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-pulmonary-hypertension-or-fibrosis"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has pulmonary hypertension or pulmonary fibrosis
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has pulmonary hypertension or pulmonary fibrosis from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/respiratory-diseases-and-treatments"
+                id="change-button-has-pulmonary-hypertension-or-fibrosis"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-metabolic,-renal-&-liver-conditions-heading"
+        >
+          Metabolic, renal & liver conditions
+        </h2>
+        <h3
+          id="answer-list-metabolic-heading"
+        >
+          Metabolic
+        </h3>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-diabetes-type"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Diabetes type
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Diabetes type from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/metabolic-renal-liver-conditions"
+                id="change-button-diabetes-type"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-fracture-of-hip"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had a prior osteoporotic fracture of the hip, wrist, spine or humerus
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had a prior osteoporotic fracture of the hip, wrist, spine or humerus from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/metabolic-renal-liver-conditions"
+                id="change-button-fracture-of-hip"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h3
+          id="answer-list-renal-heading"
+        >
+          Renal
+        </h3>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-kidney-disease"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Kidney disease
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Kidney disease from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/metabolic-renal-liver-conditions"
+                id="change-button-kidney-disease"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h3
+          id="answer-list-liver-heading"
+        >
+          Liver
+        </h3>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-liver"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has cirrhosis of the liver
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has cirrhosis of the liver from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/metabolic-renal-liver-conditions"
+                id="change-button-liver"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-neurological-&-psychiatric-conditions-heading"
+        >
+          Neurological & psychiatric conditions
+        </h2>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-epilepsy"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has epilepsy
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has epilepsy from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-has-epilepsy"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-tia"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had a stroke or TIA
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had a stroke or TIA from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-tia"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-motor-neurone-multiple-sclerosis-myasthenia"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has motor neurone disease, multiple sclerosis, myasthenia, or Huntington's disease
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has motor neurone disease, multiple sclerosis, myasthenia, or Huntington's disease from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-has-motor-neurone-multiple-sclerosis-myasthenia"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-parkinsons-disease"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has Parkinson's disease
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has Parkinson's disease from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-has-parkinsons-disease"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-dementia"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has dementia
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has dementia from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-has-dementia"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-cerebral-palsy"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has cerebral palsy
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has cerebral palsy from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-has-cerebral-palsy"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-learning-disability-or-downs-syndrome"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has a learning disability or Down's syndrome
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has a learning disability or Down's syndrome from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-learning-disability-or-downs-syndrome"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-has-a-severe-mental-illness"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has a severe mental illness
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has a severe mental illness from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/neurological-and-psychiatric-conditions"
+                id="change-button-has-a-severe-mental-illness"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-immune-&-haematological-conditions-heading"
+        >
+          Immune & haematological conditions
+        </h2>
+        <h3
+          id="answer-list-autoimmune-heading"
+        >
+          Autoimmune
+        </h3>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-rheumatoid-arthritis-or-sle"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has rheumatoid arthritis, SLE or a seronegative arthritis such as Ankylosing Spondylitis
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has rheumatoid arthritis, SLE or a seronegative arthritis such as Ankylosing Spondylitis from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immune-and-haematological-conditions"
+                id="change-button-rheumatoid-arthritis-or-sle"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h3
+          id="answer-list-haematological-and-immunodeficiency-heading"
+        >
+          Haematological and immunodeficiency
+        </h3>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-sickle-cell-or-immune-deficiency"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has a condition that means they may be immunosuppressed
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has a condition that means they may be immunosuppressed from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immune-and-haematological-conditions"
+                id="change-button-sickle-cell-or-immune-deficiency"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-thrombosis-or-pulmonary-embolus"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had thrombosis or pulmonary embolus
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had thrombosis or pulmonary embolus from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immune-and-haematological-conditions"
+                id="change-button-thrombosis-or-pulmonary-embolus"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="answer-list-immunosuppressants,-cancer-conditions-&-treatments-heading"
+        >
+          Immunosuppressants, cancer conditions & treatments
+        </h2>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-lung-or-oral-cancer"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has lung or oral cancer
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has lung or oral cancer from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-lung-or-oral-cancer"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-solid-organ-transplant"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had a solid organ transplant (lung, liver, stomach, pancreas, spleen, heart or thymus)
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had a solid organ transplant (lung, liver, stomach, pancreas, spleen, heart or thymus) from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-solid-organ-transplant"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-cancer-of-the-blood-or-bone-marrow"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has a cancer of the blood or bone marrow such as leukaemia, myelodysplastic syndromes, lymphoma or myeloma and is at any stage of treatment
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has a cancer of the blood or bone marrow such as leukaemia, myelodysplastic syndromes, lymphoma or myeloma and is at any stage of treatment from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-cancer-of-the-blood-or-bone-marrow"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-bone-marrow-or-stem-cell-transplant"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had bone marrow or stem cell transplant in the last 6 months
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had bone marrow or stem cell transplant in the last 6 months from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-bone-marrow-or-stem-cell-transplant"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-had-radiotherapy-last-6-months"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had radiotherapy in the last 6 months
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had radiotherapy in the last 6 months from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-had-radiotherapy-last-6-months"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-chemotherapy-in-the-last-12-months"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has had chemotherapy in the last 12 months
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has had chemotherapy in the last 12 months from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-chemotherapy-in-the-last-12-months"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-prescribed-oral-prednisolone-steroids"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has been prescribed oral prednisolone
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has been prescribed oral prednisolone from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-prescribed-oral-prednisolone-steroids"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-prescribed-immunosuppressants"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            >
+              Has been prescribed immunosuppressants
+            </dt>
+            <dd
+              class="nhsuk-summary-list__value"
+            />
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change Has been prescribed immunosuppressants from "
+                class="nhsuk-button change-button"
+                formaction="/ras/qcovid/immunosuppressants-cancer-conditions"
+                id="change-button-prescribed-immunosuppressants"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="generate-risk-score-heading"
+        >
+          Now generate the patient's result
+        </h2>
+        <p
+          id="submit-disclaimer-paragraph"
+        >
+          By submitting this notification you are confirming that, to the best of your knowledge, the details you are providing are correct.
+        </p>
+        <button
+          aria-disabled="true"
+          class="nhsuk-button nhsuk-button--disabled nhsuk-u-margin-bottom-8"
+          disabled=""
+          id="continue-button"
+          type="submit"
+        >
+          Accept and generate result
+        </button>
+      </form>
+    </div>
+  </div>
+  <div
+    class="nhsuk-review-date"
+    id="review-date"
+  >
+    <p
+      class="nhsuk-body-s"
+    >
+      Page last reviewed: 1 December 2020
+      <br />
+      Next review due: 23 December 2023
+    </p>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,18 @@
+// import external css before local overrides to enforce css specificity
+$nhsuk-fonts-path: '/fonts/';
+@import '../../node_modules/nhsuk-frontend/packages/nhsuk.scss';
+
+@import '_colors';
+@import '_typography';
+@import '_form';
+@import '_summary';
+@import '_alert';
+@import '_score';
+@import '_button';
+@import '_header';
+@import '_legal';
+@import '_opensource';
+@import '_banner';
+@import '_utils';
+@import '_sidenav';
+@import '_panel';

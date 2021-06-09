@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnswerListRow Should display section if default is not null and input is not equal to default 1`] = `
+<DocumentFragment>
+  <h2
+    id="answer-list-form-label-heading"
+  >
+    form label
+  </h2>
+  <dl
+    class="nhsuk-summary-list"
+  >
+    <div
+      class="nhsuk-summary-list__row"
+      id="summary-row-field1"
+    >
+      <dt
+        class="nhsuk-summary-list__key"
+      >
+        page1field1Label
+      </dt>
+      <dd
+        class="nhsuk-summary-list__value"
+      >
+        field1 should show in snapshot
+      </dd>
+      <dd
+        class="nhsuk-summary-list__actions"
+      >
+        <button
+          aria-disabled="false"
+          aria-label="Change page1field1Label from field1 should show in snapshot"
+          class="nhsuk-button change-button"
+          formaction="https://example.com/prefix/form7b"
+          id="change-button-field1"
+          type="submit"
+        >
+          Change
+        </button>
+      </dd>
+    </div>
+    <div
+      class="nhsuk-summary-list__row"
+      id="summary-row-field2"
+    >
+      <dt
+        class="nhsuk-summary-list__key"
+      >
+        page1field2Label
+      </dt>
+      <dd
+        class="nhsuk-summary-list__value"
+      >
+        field2 should show in snapshot
+      </dd>
+      <dd
+        class="nhsuk-summary-list__actions"
+      >
+        <button
+          aria-disabled="false"
+          aria-label="Change page1field2Label from field2 should show in snapshot"
+          class="nhsuk-button change-button"
+          formaction="https://example.com/prefix/form7b"
+          id="change-button-field2"
+          type="submit"
+        >
+          Change
+        </button>
+      </dd>
+    </div>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`AnswerListRow Should display section if default is null 1`] = `
+<DocumentFragment>
+  <h2
+    id="answer-list-form-label-heading"
+  >
+    form label
+  </h2>
+  <dl
+    class="nhsuk-summary-list"
+  >
+    <div
+      class="nhsuk-summary-list__row"
+      id="summary-row-field1"
+    >
+      <dt
+        class="nhsuk-summary-list__key"
+      >
+        page1field1Label
+      </dt>
+      <dd
+        class="nhsuk-summary-list__value"
+      >
+        field1 should show in snapshot
+      </dd>
+      <dd
+        class="nhsuk-summary-list__actions"
+      >
+        <button
+          aria-disabled="false"
+          aria-label="Change page1field1Label from field1 should show in snapshot"
+          class="nhsuk-button change-button"
+          formaction="https://example.com/prefix/form7b"
+          id="change-button-field1"
+          type="submit"
+        >
+          Change
+        </button>
+      </dd>
+    </div>
+    <div
+      class="nhsuk-summary-list__row"
+      id="summary-row-field2"
+    >
+      <dt
+        class="nhsuk-summary-list__key"
+      >
+        page1field2Label
+      </dt>
+      <dd
+        class="nhsuk-summary-list__value"
+      >
+        field2 should show in snapshot
+      </dd>
+      <dd
+        class="nhsuk-summary-list__actions"
+      >
+        <button
+          aria-disabled="false"
+          aria-label="Change page1field2Label from field2 should show in snapshot"
+          class="nhsuk-button change-button"
+          formaction="https://example.com/prefix/form7b"
+          id="change-button-field2"
+          type="submit"
+        >
+          Change
+        </button>
+      </dd>
+    </div>
+  </dl>
+</DocumentFragment>
+`;
+
+exports[`AnswerListRow Should not display section if default is not null and input is equal to default 1`] = `<DocumentFragment />`;

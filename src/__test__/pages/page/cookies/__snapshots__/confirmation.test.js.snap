@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cookies confirmation page should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <h1>
+        Your cookie settings have been saved.
+      </h1>
+    </div>
+  </div>
+  <article>
+    <div
+      class="nhsuk-grid-row"
+    >
+      <div
+        class="nhsuk-grid-column-two-thirds"
+      >
+        <section>
+          <div
+            class="block-richtext"
+          >
+            <p>
+              We'll save your settings for a year.
+            </p>
+            <p>
+              We'll ask you if you're still OK with us using cookies when either:
+            </p>
+            <ul>
+              <li>
+                it's been a year since you last saved your settings we
+              </li>
+              <li>
+                add any new cookies or change the cookies we use
+              </li>
+            </ul>
+            <p>
+              You can also change your settings at any time using 
+              <a
+                href="/page/cookies/policy"
+              >
+                our cookies page.
+              </a>
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </article>
+  <div
+    class="nhsuk-review-date"
+    id="review-date"
+  >
+    <p
+      class="nhsuk-body-s"
+    >
+      Page last reviewed: 1 December 2020
+      <br />
+      Next review due: 23 December 2023
+    </p>
+  </div>
+</DocumentFragment>
+`;

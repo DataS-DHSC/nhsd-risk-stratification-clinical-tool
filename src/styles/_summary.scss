@@ -1,0 +1,45 @@
+.nhsuk-summary-list {
+  .nhsuk-button {
+    font-weight: $normal;
+    color: $nhsuk-link-color;
+    background: transparent;
+    outline: none;
+    padding: 0;
+    box-shadow: none;
+    text-decoration: underline;
+    margin: 0;
+
+    &:visited {
+      color: $nhsuk-focus-text-color;
+    }
+
+    &:hover {
+      color: $nhsuk-link-hover-color;
+      text-decoration: none;
+    }
+
+    &:active {
+      color: $nhsuk-link-active-color;
+    }
+
+    &:focus {
+      background-color: #ffeb3b;
+      box-shadow: 0 -2px #ffeb3b, 0 4px #212b32;
+      color: #212b32;
+      outline: 4px solid transparent;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      &:visited {
+        color: #212b32;
+      }
+    }
+  }
+
+  .nhsuk-validation-error {
+    color: $nhsuk-error-color;
+  }
+}

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`403 page should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <h1
+        class="nhsuk-label-wrapper"
+      >
+        <label
+          class="nhsuk-label nhsuk-label--xl"
+        >
+          You've not yet been given access to the COVID-19 Clinical Risk Assessment Tool
+        </label>
+      </h1>
+      <p>
+        If you're a clinician and want to use the COVID-19 Clinical Risk Assessment Tool, 
+        <a
+          href="/login"
+          id="login-link"
+        >
+           generate a link to sign in.
+        </a>
+      </p>
+      <p>
+        As a clinician, you can 
+        <a
+          href="https://digital.nhs.uk/coronavirus/risk-assessment/clinical-tool#access-the-tool"
+          id="clinician-info-link"
+          rel="noreferrer"
+          target="_blank"
+        >
+          find out how to get access to the tool (opens in new window).
+        </a>
+      </p>
+      <p>
+        If you're not a clinician and you have a question about the tool, you should read the 
+        <a
+          href="https://digital.nhs.uk/coronavirus/risk-assessment/clinical-tool/information-for-patients"
+          id="patient-guidance-link"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Information for Patients (opens in new window)
+        </a>
+         or email risk.strat.spl@nhs.net
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

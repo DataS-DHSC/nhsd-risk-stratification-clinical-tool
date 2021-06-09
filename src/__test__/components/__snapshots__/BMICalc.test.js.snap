@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BMICalc should match snapshot 1`] = `
+<DocumentFragment>
+  <p
+    id="bmi-calc"
+    name="bmi-calc"
+  >
+    The patient's BMI score is:
+    <strong>
+      39.29
+    </strong>
+  </p>
+</DocumentFragment>
+`;

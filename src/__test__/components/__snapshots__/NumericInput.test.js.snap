@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumericInput sets state and calls callback on change 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-form-group"
+  >
+    <fieldset
+      class="nhsuk-fieldset"
+    >
+      <legend
+        class="nhsuk-fieldset__legend hidden"
+      >
+        test label
+      </legend>
+      <label
+        aria-label="test label aria"
+        class="nhsuk-heading-xs nhsuk-u-font-weight-bold nhsuk-u-margin-bottom-2"
+        for="testField"
+        id="test-label-radios-label"
+      >
+        test label
+      </label>
+      <span
+        aria-label="test hint aria"
+        class="nhsuk-hint"
+        id="testField--hint"
+      >
+        test hint
+      </span>
+      <div
+        class="nhsuk-form-group"
+      >
+        <input
+          autocomplete="off"
+          class="nhsuk-input numeric-input nhsuk-input nhsuk-input--width-4"
+          id="testField"
+          max="100"
+          min="0"
+          name="testField"
+          required=""
+          type="number"
+          value="10"
+        />
+      </div>
+    </fieldset>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`NumericInput sets state and calls callback on change 2`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-form-group"
+  >
+    <fieldset
+      class="nhsuk-fieldset"
+    >
+      <legend
+        class="nhsuk-fieldset__legend hidden"
+      >
+        test label
+      </legend>
+      <label
+        aria-label="test label aria"
+        class="nhsuk-heading-xs nhsuk-u-font-weight-bold nhsuk-u-margin-bottom-2"
+        for="testField"
+        id="test-label-radios-label"
+      >
+        test label
+      </label>
+      <span
+        aria-label="test hint aria"
+        class="nhsuk-hint"
+        id="testField--hint"
+      >
+        test hint
+      </span>
+      <div
+        class="nhsuk-form-group"
+      >
+        <input
+          autocomplete="off"
+          class="nhsuk-input numeric-input nhsuk-input nhsuk-input--width-4"
+          id="testField"
+          max="100"
+          min="0"
+          name="testField"
+          required=""
+          type="number"
+          value="55"
+        />
+      </div>
+    </fieldset>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`NumericInput should match snapshot before and after conversion 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-form-group"
+  >
+    <fieldset
+      class="nhsuk-fieldset"
+    >
+      <legend
+        class="nhsuk-fieldset__legend hidden"
+      >
+        test label
+      </legend>
+      <label
+        aria-label="test label aria"
+        class="nhsuk-heading-xs nhsuk-u-font-weight-bold nhsuk-u-margin-bottom-2"
+        for="testField"
+        id="test-label-radios-label"
+      >
+        test label
+      </label>
+      <span
+        aria-label="test hint aria"
+        class="nhsuk-hint"
+        id="testField--hint"
+      >
+        test hint
+      </span>
+      <div
+        class="nhsuk-form-group"
+      >
+        <input
+          autocomplete="off"
+          class="nhsuk-input numeric-input nhsuk-input nhsuk-input--width-4"
+          id="testField"
+          max="100"
+          min="0"
+          name="testField"
+          required=""
+          type="number"
+          value="10"
+        />
+      </div>
+      <div
+        class="numeric-input-conversion"
+      >
+        <span
+          aria-label="(0 feet 4 inches)"
+          class="nhsuk-hint"
+          id="testField-conversion"
+          name="testField-conversion"
+        >
+          (0ft 4in)
+        </span>
+      </div>
+    </fieldset>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`NumericInput should match snapshot before and after conversion 2`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-form-group"
+  >
+    <fieldset
+      class="nhsuk-fieldset"
+    >
+      <legend
+        class="nhsuk-fieldset__legend hidden"
+      >
+        test label
+      </legend>
+      <label
+        aria-label="test label aria"
+        class="nhsuk-heading-xs nhsuk-u-font-weight-bold nhsuk-u-margin-bottom-2"
+        for="testField"
+        id="test-label-radios-label"
+      >
+        test label
+      </label>
+      <span
+        aria-label="test hint aria"
+        class="nhsuk-hint"
+        id="testField--hint"
+      >
+        test hint
+      </span>
+      <div
+        class="nhsuk-form-group"
+      >
+        <input
+          autocomplete="off"
+          class="nhsuk-input numeric-input nhsuk-input nhsuk-input--width-4"
+          id="testField"
+          max="100"
+          min="0"
+          name="testField"
+          required=""
+          type="number"
+          value="55"
+        />
+      </div>
+      <div
+        class="numeric-input-conversion"
+      >
+        <span
+          aria-label="(1 feet 10 inches)"
+          class="nhsuk-hint"
+          id="testField-conversion"
+          name="testField-conversion"
+        >
+          (1ft 10in)
+        </span>
+      </div>
+    </fieldset>
+  </div>
+</DocumentFragment>
+`;

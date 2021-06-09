@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cookies - SuccessBanner should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-success-banner"
+    id="nhsuk-success-banner"
+  >
+    <div
+      class="nhsuk-width-container"
+    >
+      <p
+        class="nhsuk-success-cookie-banner__message"
+        id="nhsuk-success-banner__message"
+      >
+        You can change your cookie settings at any time using our 
+        <a
+          href="/page/cookies/policy"
+        >
+          cookies page
+        </a>
+        .
+      </p>
+      <p
+        class="nhsuk-success-cookie-banner__message"
+        id="nhsuk-success-banner-hide__message"
+      >
+        <a
+          href=""
+        >
+          Hide this message
+        </a>
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

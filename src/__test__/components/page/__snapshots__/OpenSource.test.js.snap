@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OpenSource should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <h1>
+        Open-source licenses for the COVID-19 Clinical Risk Assessment Tool
+      </h1>
+      <details
+        class="nhsuk-details"
+        id="nhsuk-details0"
+      >
+        <summary
+          aria-controls="nhsuk-details__text0"
+          aria-expanded="true"
+          class="nhsuk-details__summary"
+          id="nhsuk-details__summary0"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="nhsuk-details__summary-text"
+          >
+            Apache-2.0
+          </span>
+        </summary>
+        <div
+          class="nhsuk-details__text"
+          id="nhsuk-details__text0"
+        >
+          <p
+            id="nhsuk-details__content0"
+          >
+            @aws-crypto/sha256-browser@1.1.0, @aws-crypto/sha256-js@1.1.0, MITFluentAssertions, AWSXRayRecorder, Amazon.Lambda.Core
+          </p>
+        </div>
+      </details>
+      <details
+        class="nhsuk-details"
+        id="nhsuk-details1"
+      >
+        <summary
+          aria-controls="nhsuk-details__text1"
+          aria-expanded="true"
+          class="nhsuk-details__summary"
+          id="nhsuk-details__summary1"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="nhsuk-details__summary-text"
+          >
+            MIT
+          </span>
+        </summary>
+        <div
+          class="nhsuk-details__text"
+          id="nhsuk-details__text1"
+        >
+          <p
+            id="nhsuk-details__content1"
+          >
+            @apidevtools/json-schema-ref-parser@9.0.7, jest-environment-jsdom@26.6.2, jest-environment-node@26.6.2, webdriver@7.5.3, coverlet.collector
+          </p>
+        </div>
+      </details>
+      <a
+        class="nhsuk-body-m license-definitions"
+        href="https://spdx.org/licenses/"
+        rel="noopener noreferrer nofollow"
+        target="_self"
+      >
+        License definitions.
+      </a>
+    </div>
+  </div>
+  <div
+    class="nhsuk-review-date"
+    id="review-date"
+  >
+    <p
+      class="nhsuk-body-s"
+    >
+      Page last reviewed: 1 December 2020
+      <br />
+      Next review due: 23 December 2023
+    </p>
+  </div>
+</DocumentFragment>
+`;

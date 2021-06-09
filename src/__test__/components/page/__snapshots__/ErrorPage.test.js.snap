@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorPage should match snapshot when 400 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="nhsuk-grid-row"
+      >
+        <div
+          class="nhsuk-grid-column-full"
+        >
+          <h1
+            id="error-heading"
+          >
+            Something went wrong
+          </h1>
+        </div>
+        <div
+          class="nhsuk-grid-column-two-thirds"
+        >
+          <p
+            id="temporary-problem-message"
+          >
+            Sorry, an error has occurred with the service. This is usually a temporary problem, but if it continues you should let our Helpdesk know.
+            <br />
+            <br />
+            If you need to contact the Helpdesk:
+            <br />
+            <br />
+            You may first need to
+             
+            <a
+              href="/ras/ip"
+              rel="noreferrer nofollow noopener"
+              target="_blank"
+            >
+              find your IP address (opens in new window)
+            </a>
+             and enter that as well as your Correlation ID: ead1c4fe 
+            in ‘Your message for us’ when you
+             
+            <a
+              href="https://www.nhs.uk/contact-us/covid-risk"
+              id="helpdesk-link"
+              rel="noreferrer nofollow noopener"
+              target="_blank"
+            >
+              complete the helpdesk contact form (opens in new window)
+            </a>
+          </p>
+          
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="nhsuk-grid-row"
+    >
+      <div
+        class="nhsuk-grid-column-full"
+      >
+        <h1
+          id="error-heading"
+        >
+          Something went wrong
+        </h1>
+      </div>
+      <div
+        class="nhsuk-grid-column-two-thirds"
+      >
+        <p
+          id="temporary-problem-message"
+        >
+          Sorry, an error has occurred with the service. This is usually a temporary problem, but if it continues you should let our Helpdesk know.
+          <br />
+          <br />
+          If you need to contact the Helpdesk:
+          <br />
+          <br />
+          You may first need to
+           
+          <a
+            href="/ras/ip"
+            rel="noreferrer nofollow noopener"
+            target="_blank"
+          >
+            find your IP address (opens in new window)
+          </a>
+           and enter that as well as your Correlation ID: ead1c4fe 
+          in ‘Your message for us’ when you
+           
+          <a
+            href="https://www.nhs.uk/contact-us/covid-risk"
+            id="helpdesk-link"
+            rel="noreferrer nofollow noopener"
+            target="_blank"
+          >
+            complete the helpdesk contact form (opens in new window)
+          </a>
+        </p>
+        
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`ErrorPage should match snapshot when 403 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-full"
+    >
+      <h1
+        id="error-heading"
+      >
+        Something went wrong
+      </h1>
+    </div>
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <p
+        id="temporary-problem-message"
+      >
+        Sorry, an error has occurred with the service. This is usually a temporary problem, but if it continues you should let our Helpdesk know.
+        <br />
+        <br />
+        If you need to contact the Helpdesk:
+        <br />
+        <br />
+        You may first need to 
+        <a
+          href="/ras/ip"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+        >
+          find your IP address (opens in new window)
+        </a>
+         and enter that as well as your Correlation ID: ead1c4fe in ‘Your message for us’ when you 
+        <a
+          href="https://www.nhs.uk/contact-us/covid-risk"
+          id="helpdesk-link"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+        >
+          complete the helpdesk contact form (opens in new window)
+        </a>
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ErrorPage should match snapshot when 404 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-full"
+    >
+      <h1
+        id="error-heading"
+      >
+        Page not found
+      </h1>
+    </div>
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <p
+        style="white-space: pre-wrap;"
+      >
+        If you entered a web address, make sure you entered it correctly.
+
+If you pasted the web address, make sure you copied the entire address. 
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ErrorPage should match snapshot when 503 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-full"
+    >
+      <h1
+        id="error-heading"
+      >
+        Service unavailable
+      </h1>
+    </div>
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <p
+        style="white-space: pre-wrap;"
+      >
+        Sorry, but this service is currently unavailable whilst a new version is being released. It will be available again soon. Please try again later.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

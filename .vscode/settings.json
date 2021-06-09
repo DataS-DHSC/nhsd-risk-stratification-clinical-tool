@@ -1,0 +1,33 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "eslint.format.enable": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.fixAll.eslint": true,
+    },
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+    "stylelint.enable": true,
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "eslint.packageManager": "yarn",
+    "npm.packageManager": "yarn",
+    "stylelint.packageManager": "pnpm",
+    "eslint.codeAction.showDocumentation": {
+      "enable": true
+    },
+    "eslint.alwaysShowStatus": true,
+
+    "cucumberautocomplete.steps": [
+        "test/integration/steps/**/*.js",
+        "test/integration/steps/*.js"
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.syncfeatures": "test/integration/features/**/*.feature",
+  }

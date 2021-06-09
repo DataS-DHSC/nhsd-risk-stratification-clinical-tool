@@ -1,0 +1,16 @@
+.nhsuk-panel {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 24px;
+  background-color: #ffffff;
+  color: #212b32;
+  width: 100%;
+}
+
+@media (min-width: 40.0625em) {
+  .nhsuk-panel {
+    padding: 32px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+}

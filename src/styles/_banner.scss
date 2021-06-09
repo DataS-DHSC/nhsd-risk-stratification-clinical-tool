@@ -1,0 +1,66 @@
+.top-banner {
+  -webkit-font-smoothing: antialiased;
+  color: $nhsuk-text-color;
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: inherit;
+  padding: 16px 0;
+  background: $color_nhsuk-grey-5;
+
+  .status-box-blue {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    padding: 3px 5px 3px 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.45455;
+    font-weight: bold;
+    background-color: $color_nhsuk-blue;
+    margin-right: 10px;
+  }
+}
+
+.nhsuk-success-banner {
+  background-color: $color_nhsuk-green;
+  padding: 6px 0;
+
+  p {
+    color: $color_nhsuk-white;
+    margin-bottom: 0;
+  }
+
+  a {
+    color: $color_nhsuk-white;
+
+    :hover {
+      color: $nhsuk-focus-text-color;
+      text-decoration: none;
+    }
+  }
+}
+
+.nhsuk-cookie-banner {
+  background-color: $color_nhsuk-white;
+  padding-top: 2em;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    li {
+      float: left;
+      padding-right: 2em;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
+  }
+}

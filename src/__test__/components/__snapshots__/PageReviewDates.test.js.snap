@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageReviewDates should match snapshot for qcovid pages 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-review-date"
+    id="review-date"
+  >
+    <p
+      class="nhsuk-body-s"
+    >
+      Page last reviewed: 1 December 2020
+      <br />
+      Next review due: 23 December 2023
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PageReviewDates should match snapshot for static pages 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-review-date"
+    id="review-date"
+  >
+    <p
+      class="nhsuk-body-s"
+    >
+      Page last reviewed: 1 December 2020
+      <br />
+      Next review due: 23 December 2023
+    </p>
+  </div>
+</DocumentFragment>
+`;

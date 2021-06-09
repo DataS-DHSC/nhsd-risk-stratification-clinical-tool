@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput sets context data on input change 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-form-group"
+  >
+    <fieldset
+      class="nhsuk-fieldset"
+    >
+      <legend
+        class="nhsuk-fieldset__legend hidden"
+      >
+        test label
+      </legend>
+      <label
+        class="nhsuk-heading-xs nhsuk-u-font-weight-bold nhsuk-u-margin-bottom-2"
+        for="testField"
+        id="test-label-radios-label"
+      >
+        test label
+      </label>
+      <div
+        class="nhsuk-form-group"
+      >
+        <input
+          autocomplete="off"
+          class="nhsuk-input nhsuk-input nhsuk-input--width-10"
+          id="testField"
+          name="testField"
+          required=""
+          type="text"
+          value="test value"
+        />
+      </div>
+    </fieldset>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TextInput should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-form-group"
+  >
+    <fieldset
+      class="nhsuk-fieldset"
+    >
+      <legend
+        class="nhsuk-fieldset__legend hidden"
+      >
+        test label
+      </legend>
+      <label
+        class="nhsuk-heading-xs nhsuk-u-font-weight-bold nhsuk-u-margin-bottom-2"
+        for="testField"
+        id="test-label-radios-label"
+      >
+        test label
+      </label>
+      <div
+        class="nhsuk-form-group"
+      >
+        <input
+          autocomplete="off"
+          class="nhsuk-input nhsuk-input nhsuk-input--width-10"
+          id="testField"
+          name="testField"
+          required=""
+          type="text"
+          value="testValue"
+        />
+      </div>
+    </fieldset>
+  </div>
+</DocumentFragment>
+`;

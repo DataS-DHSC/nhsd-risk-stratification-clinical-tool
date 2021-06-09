@@ -1,0 +1,14 @@
+{
+  "MITFluentAssertions": {
+    "licenses": "Apache-2.0"
+  },
+  "coverlet.collector": {
+    "licenses": "MIT"
+  },
+  "AWSXRayRecorder": {
+    "licenses": "Apache-2.0"
+  },
+  "Amazon.Lambda.Core": {
+    "licenses": "Apache-2.0"
+  }
+}

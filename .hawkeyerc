@@ -1,0 +1,7 @@
+{
+    "all": true,
+    "json": "security-scan.json",
+    "modules": ["files-ccnumber", "files-contents", "files-secrets"],
+    "failOn": "high",
+    "showCode": true
+}

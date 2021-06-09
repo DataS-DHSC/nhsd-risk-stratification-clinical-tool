@@ -1,0 +1,47 @@
+.score-page {
+  h1 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  &__score-subtitle {
+    text-align: center;
+  }
+
+  &__chart {
+    background: $color_nhsuk-grey-3;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .score-page-link {
+    font-size: 1.1875rem;
+    line-height: 1.47368;
+    font-family: Frutiger W01, Arial, Sans-serif;
+    padding-bottom: 24px;
+    display: block;
+  }
+}
+
+#risk-of-hospitalisation-heading {
+  margin-bottom: 24px;
+  font-size: 1.1875rem;
+  line-height: 1.47368;
+  display: block;
+  font-weight: 600;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+#risk-explanation-text h3 {
+  font-size: 1.375rem;
+  line-height: 1.45455;
+  display: block;
+  font-weight: 600;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HiddenStateHolder renders input fields as hidden 1`] = `
+<DocumentFragment>
+  <input
+    name="field1"
+    type="hidden"
+    value="value1"
+  />
+  <input
+    name="field2"
+    type="hidden"
+    value="value2"
+  />
+</DocumentFragment>
+`;

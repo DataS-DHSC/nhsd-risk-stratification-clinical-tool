@@ -1,0 +1,33 @@
+.article-nav__title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0 0 20px;
+  display: inline-block;
+  padding: 0 10px 21px 0;
+  border-bottom: 2px solid $nhsuk-focus-text-color;
+  width: 100%;
+}
+
+.article-nav-list__item {
+  background-image: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+  font-size: 16px;
+}
+
+.nhsuk-grid-column-one-third__sticky {
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+// em value derived from nhsuk breakpoint for desktop (769px), compiled by Sass mq
+// https://github.com/nhsuk/nhsuk-frontend/blob/master/packages/core/settings/_breakpoints.scss
+// as this repo uses the compiled instance of this css, em value is used to limit unexpected behaviour
+@media (min-width: 48.0625em) {
+  .nhsuk-grid-column-one-third__sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+}

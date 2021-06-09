@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transactional page template snapshot should be built from context data when client side routing enabled 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <h1
+        class="nhsuk-fieldset__legend--l"
+        id="form-label-page-heading"
+      >
+        form-label
+      </h1>
+      <form
+        action="/ras/qcovid/patient-details"
+        id="form-id-form"
+        method="POST"
+      >
+        <input
+          name="field1"
+          type="hidden"
+          value="field1ContextData"
+        />
+        <input
+          name="field2"
+          type="hidden"
+          value="field1ContextData"
+        />
+        <input
+          name="csrfToken"
+          type="hidden"
+          value="csrfToken"
+        />
+        <button
+          aria-disabled="false"
+          class="nhsuk-button nhsuk-u-margin-bottom-8"
+          id="continue-button"
+          type="submit"
+        >
+          Continue
+        </button>
+      </form>
+      <div
+        class="nhsuk-review-date"
+        id="review-date"
+      >
+        <p
+          class="nhsuk-body-s"
+        >
+          Page last reviewed: 1 December 2020
+          <br />
+          Next review due: 23 December 2023
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`transactional page template snapshot should be built from prevData when client side routing disabled 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <h1
+        class="nhsuk-fieldset__legend--l"
+        id="form-label-page-heading"
+      >
+        form-label
+      </h1>
+      <form
+        action="/ras/qcovid/patient-details"
+        id="form-id-form"
+        method="POST"
+      >
+        <input
+          name="field1"
+          type="hidden"
+          value="field1prevData"
+        />
+        <input
+          name="field2"
+          type="hidden"
+          value="field2prevData"
+        />
+        <input
+          name="csrfToken"
+          type="hidden"
+          value="csrfToken"
+        />
+        <input
+          name="headers"
+          type="hidden"
+          value="{\\"correlationId\\":\\"5383302b-f729-4076-97d5-c428b26ef5dd\\"}"
+        />
+        <button
+          aria-disabled="false"
+          class="nhsuk-button nhsuk-u-margin-bottom-8"
+          id="continue-button"
+          type="submit"
+        >
+          Continue
+        </button>
+      </form>
+      <div
+        class="nhsuk-review-date"
+        id="review-date"
+      >
+        <p
+          class="nhsuk-body-s"
+        >
+          Page last reviewed: 1 December 2020
+          <br />
+          Next review due: 23 December 2023
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

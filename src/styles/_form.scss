@@ -1,0 +1,126 @@
+form {
+  .nhsuk-label,
+  .nhsuk-fieldset__legend {
+    font-weight: $bold;
+
+    &.nhsuk-radios__label,
+    &.nhsuk-checkboxes__label {
+      font-weight: $normal;
+    }
+  }
+
+  .nhsuk-back-link {
+    button {
+      &.nhsuk-back-link__link {
+        text-decoration: none;
+        background: transparent;
+        border: none;
+        color: $nhsuk-link-color;
+        cursor: pointer;
+
+        &:hover,
+        &:visited,
+        &:focus {
+          outline: none;
+          border: none;
+        }
+
+        &:visited {
+          color: $nhsuk-link-color;
+        }
+
+        &:hover {
+          color: $nhsuk-link-hover-color;
+          text-decoration: underline;
+        }
+
+        &:focus {
+          outline: 4px solid transparent;
+          background-color: $color_nhsuk-yellow;
+          box-shadow: 0 -2px $color_nhsuk-yellow, 0 4px $nhsuk-focus-text-color;
+
+          &:hover {
+            text-decoration: none;
+          }
+
+          &:visited {
+            color: $nhsuk-focus-text-color;
+          }
+        }
+      }
+    }
+  }
+
+  #change-button-ft-in,
+  #change-button-st-lb {
+    font-weight: $normal;
+    color: $nhsuk-link-color;
+    background: transparent;
+    outline: none;
+    padding: 0;
+    box-shadow: none;
+    text-decoration: underline;
+    margin: 0;
+    display: inline-block;
+
+    &:visited {
+      color: $nhsuk-focus-text-color;
+    }
+
+    &:hover {
+      color: $nhsuk-link-hover-color;
+      text-decoration: none;
+    }
+
+    &:active {
+      color: $nhsuk-link-active-color;
+    }
+
+    &:focus {
+      background-color: #ffeb3b;
+      box-shadow: 0 -2px #ffeb3b, 0 4px #212b32;
+      color: #212b32;
+      outline: 4px solid transparent;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      &:visited {
+        color: #212b32;
+      }
+    }
+  }
+
+  .bmi-page-input-container {
+    display: inline-block;
+
+    .nhsuk-label {
+      width: 225px;
+    }
+  }
+
+  .bmi-page-row {
+    display: block;
+  }
+
+  .numeric-input {
+    width: 100px;
+    margin-right: 20px;
+    float: left;
+  }
+
+  .numeric-input-conversion {
+    width: auto;
+    float: left;
+  }
+
+  .nhsuk-select {
+    height: auto;
+  }
+
+  .black-hint {
+    color: #212b32;
+  }
+}

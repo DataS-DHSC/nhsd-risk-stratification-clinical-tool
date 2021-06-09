@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RiskPanel should match snapshot  1`] = `
+<DocumentFragment>
+  <ul>
+    <li
+      id="absolute-risk-hospitalisation"
+    >
+      Absolute risk: 
+      <strong>
+        5% (1 in 20)
+      </strong>
+    </li>
+    <li
+      id="relative-risk-hospitalisation"
+    >
+      Relative risk: 
+      <strong>
+        50
+      </strong>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

@@ -1,0 +1,13 @@
+#header-home-link {
+  max-width: none;
+}
+
+#header-home-link:hover {
+  span {
+    text-decoration: none;
+  }
+
+  .nhsuk-logo {
+    border: 0;
+  }
+}

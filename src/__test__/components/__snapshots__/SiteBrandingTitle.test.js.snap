@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SiteBrandingTitle renders correctly for MHRA name 1`] = `
+<DocumentFragment>
+  COVID-19 Risk Assessment Service
+</DocumentFragment>
+`;
+
+exports[`SiteBrandingTitle renders correctly for site branding title 1`] = `
+<DocumentFragment>
+  COVID-19 Clinical Risk Assessment Tool
+</DocumentFragment>
+`;

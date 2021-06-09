@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormIntroGenerator should match snapshot for body mass index qcovid form intro type 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-inset-text"
+  >
+    <span
+      class="nhsuk-u-visually-hidden"
+    >
+      Information: 
+    </span>
+    <p>
+      BMI is an important and modifiable risk factor. You do not need to enter this information, but it'll help get a more accurate result if you do.
+    </p>
+  </div>
+  <span
+    class="nhsuk-hint"
+  >
+    If the patient's BMI is:
+  </span>
+  <span
+    class="nhsuk-hint"
+  >
+    <ul>
+      <li>
+        not entered, we'll use a BMI of 25
+      </li>
+      <li>
+        below 15, we'll use a calculation of 15
+      </li>
+      <li>
+        over 47, we'll use a calculation of 47
+      </li>
+    </ul>
+  </span>
+</DocumentFragment>
+`;
+
+exports[`FormIntroGenerator should match snapshot for immuno cancer conditions qcovid form intro type 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-inset-text"
+  >
+    <span
+      class="nhsuk-u-visually-hidden"
+    >
+      Information: 
+    </span>
+    <p>
+      You can 
+      <a
+        href="https://digital.nhs.uk/coronavirus/risk-assessment/clinical-tool/guidance-for-clinicians#chemotherapy-and-immunosuppressants"
+        rel="noreferrer"
+        target="_blank"
+      >
+        see a full list of immunosuppressants (opens in new window)
+      </a>
+       if you need guidance to answer the last question on this page.
+    </p>
+  </div>
+</DocumentFragment>
+`;

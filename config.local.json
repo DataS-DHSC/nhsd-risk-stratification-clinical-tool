@@ -1,0 +1,8 @@
+{
+  "allowedIps": [],
+  "cacheTime": 10000,
+  "featureFlags": {
+    "adobeAnalytics": true
+  },
+  "logLevel": "debug"
+}

@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckAnswersGenerator should match snapshot when all validations pass 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <h1
+        id="check-answers-heading"
+      >
+        Check your answers
+      </h1>
+      <p
+        id="check-information-is-correct-paragraph"
+      >
+        This is the information that will be used to generate the patient's result. Please check that each answer you have given is correct.
+      </p>
+      <form
+        action="/score"
+        id="check-answers-form"
+        method="POST"
+      >
+        <input
+          name="answers.field1"
+          type="hidden"
+          value="test1"
+        />
+        <input
+          name="answers.field2"
+          type="hidden"
+          value="test2"
+        />
+        <h2
+          id="answer-list-form1-heading"
+        >
+          form1
+        </h2>
+        <h3
+          id="answer-list-section1-heading"
+        >
+          section1
+        </h3>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-field1"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            />
+            <dd
+              class="nhsuk-summary-list__value"
+            >
+              test1
+            </dd>
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change undefined from test1"
+                class="nhsuk-button change-button"
+                formaction="/ras/algoName/undefined"
+                id="change-button-field1"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-field2"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            />
+            <dd
+              class="nhsuk-summary-list__value"
+            >
+              test2
+            </dd>
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change undefined from test2"
+                class="nhsuk-button change-button"
+                formaction="/ras/algoName/undefined"
+                id="change-button-field2"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="generate-risk-score-heading"
+        >
+          Now generate the patient's result
+        </h2>
+        <p
+          id="submit-disclaimer-paragraph"
+        >
+          By submitting this notification you are confirming that, to the best of your knowledge, the details you are providing are correct.
+        </p>
+        <button
+          aria-disabled="false"
+          class="nhsuk-button nhsuk-u-margin-bottom-8"
+          id="continue-button"
+          type="submit"
+        >
+          Accept and generate result
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CheckAnswersGenerator should match snapshot when some validations fails 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <h1
+        id="check-answers-heading"
+      >
+        Check your answers
+      </h1>
+      <p
+        id="check-information-is-correct-paragraph"
+      >
+        This is the information that will be used to generate the patient's result. Please check that each answer you have given is correct.
+      </p>
+      <form
+        action="/score"
+        id="check-answers-form"
+        method="POST"
+      >
+        <input
+          name="answers.field1"
+          type="hidden"
+          value="test1"
+        />
+        <input
+          name="answers.field2"
+          type="hidden"
+          value="test2"
+        />
+        <h2
+          id="answer-list-form1-heading"
+        >
+          form1
+        </h2>
+        <h3
+          id="answer-list-section1-heading"
+        >
+          section1
+        </h3>
+        <dl
+          class="nhsuk-summary-list"
+        >
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-field1"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            />
+            <dd
+              class="nhsuk-summary-list__value nhsuk-validation-error"
+            >
+              test1 (validation message)
+            </dd>
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change undefined from test1 (validation message)"
+                class="nhsuk-button change-button"
+                formaction="/ras/algoName/undefined"
+                id="change-button-field1"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+          <div
+            class="nhsuk-summary-list__row"
+            id="summary-row-field2"
+          >
+            <dt
+              class="nhsuk-summary-list__key"
+            />
+            <dd
+              class="nhsuk-summary-list__value"
+            >
+              test2
+            </dd>
+            <dd
+              class="nhsuk-summary-list__actions"
+            >
+              <button
+                aria-disabled="false"
+                aria-label="Change undefined from test2"
+                class="nhsuk-button change-button"
+                formaction="/ras/algoName/undefined"
+                id="change-button-field2"
+                type="submit"
+              >
+                Change
+              </button>
+            </dd>
+          </div>
+        </dl>
+        <h2
+          id="generate-risk-score-heading"
+        >
+          Now generate the patient's result
+        </h2>
+        <p
+          id="submit-disclaimer-paragraph"
+        >
+          By submitting this notification you are confirming that, to the best of your knowledge, the details you are providing are correct.
+        </p>
+        <button
+          aria-disabled="true"
+          class="nhsuk-button nhsuk-button--disabled nhsuk-u-margin-bottom-8"
+          disabled=""
+          id="continue-button"
+          type="submit"
+        >
+          Accept and generate result
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

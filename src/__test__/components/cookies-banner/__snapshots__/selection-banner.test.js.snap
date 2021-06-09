@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cookies - SelectionBanner should match snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="nhsuk-cookie-banner"
+    id="nhsuk-cookie-banner"
+  >
+    <div
+      class="nhsuk-width-container"
+    >
+      <h3>
+        Cookies on the NHS website
+      </h3>
+      <p>
+        We've put some small files called cookies on your device to make our site work.
+      </p>
+      <p>
+        We'd also like to use analytics cookies. These send information about how our site is used to services called Adobe Analytics, Hotjar and Google Analytics. We use this information to improve our site.
+      </p>
+      <p>
+        Let us know if this is OK. We'll use a cookie to save your choice. You can 
+        <a
+          href="/page/cookies/policy"
+          id="nhsuk-cookie-banner__link"
+        >
+          read more about our cookies
+        </a>
+         before you choose.
+      </p>
+      <ul>
+        <li>
+          <button
+            class="nhsuk-button"
+            id="nhsuk-cookie-banner-opt-in"
+            type="submit"
+          >
+            I'm OK with analytics cookies
+          </button>
+        </li>
+        <li>
+          <button
+            class="nhsuk-button"
+            id="nhsuk-cookie-banner-opt-out"
+            type="submit"
+          >
+            Do not use analytics cookies
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

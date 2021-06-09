@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FailureSummary should match snapshot when correlation id is empty  1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-full"
+    >
+      <h1
+        class="page-title"
+        id="failed-to-generate-score-heading"
+      >
+        Failed to generate a result
+      </h1>
+      <h2
+        id="reasons-for-failure-heading"
+      >
+        This might be because
+      </h2>
+      <ul>
+        <li>
+          There is a temporary fault with this service, or
+        </li>
+        <li>
+          You have been linked to this service incorrectly
+        </li>
+      </ul>
+      <h2
+        id="other-options-heading"
+      >
+        Please try the following options instead
+      </h2>
+      <ul>
+        <li>
+          Try again later
+        </li>
+      </ul>
+    </div>
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <p
+        id="temporary-problem-message"
+      >
+        If you see this message consistently, please contact the 
+        <a
+          href="https://www.nhs.uk/contact-us/covid-risk?correlationId=undefined"
+          id="helpdesk-link"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+        >
+          helpdesk
+        </a>
+      </p>
+      <a
+        class="nhsuk-u-margin-top-5 nhsuk-u-font-size-19"
+        href="/ras/qcovid"
+        id="new-assessment-link"
+      >
+        Start a new COVID-19 risk assessment
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FailureSummary should match snapshot when correlation id is present  1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-full"
+    >
+      <h1
+        class="page-title"
+        id="failed-to-generate-score-heading"
+      >
+        Failed to generate a result
+      </h1>
+      <h2
+        id="reasons-for-failure-heading"
+      >
+        This might be because
+      </h2>
+      <ul>
+        <li>
+          There is a temporary fault with this service, or
+        </li>
+        <li>
+          You have been linked to this service incorrectly
+        </li>
+      </ul>
+      <h2
+        id="other-options-heading"
+      >
+        Please try the following options instead
+      </h2>
+      <ul>
+        <li>
+          Try again later
+        </li>
+      </ul>
+    </div>
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <p
+        id="temporary-problem-message"
+      >
+        If you see this message consistently, please contact the 
+        <a
+          href="https://www.nhs.uk/contact-us/covid-risk?correlationId=123-abc"
+          id="helpdesk-link"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+        >
+          helpdesk
+        </a>
+         and quote correlation id: 123-abc
+      </p>
+      <a
+        class="nhsuk-u-margin-top-5 nhsuk-u-font-size-19"
+        href="/ras/qcovid"
+        id="new-assessment-link"
+      >
+        Start a new COVID-19 risk assessment
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

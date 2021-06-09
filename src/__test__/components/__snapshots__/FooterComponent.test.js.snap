@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterComponent should match snapshot  1`] = `
+<DocumentFragment>
+  <footer>
+    <div
+      class="nhsuk-footer"
+    >
+      <div
+        class="nhsuk-width-container"
+      >
+        <ul
+          class="nhsuk-footer__list"
+          id="footer-list"
+        >
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="https://digital.nhs.uk/coronavirus/risk-assessment/clinical-tool/guidance-for-clinicians"
+              id="footer-clinical-guidance"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Clinical Guidance
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="https://digital.nhs.uk/coronavirus/risk-assessment/clinical-tool/information-for-patients"
+              id="footer-guidance-for-patients"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Guidance for patients
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/cookies/policy"
+              id="footer-cookies-policy"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Cookies
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="https://www.nhs.uk/contact-us/covid-risk"
+              id="footer-contact-us"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Contact us
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/accessibility"
+              id="footer-accessibility-statement"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Accessibility statement
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/terms-of-use"
+              id="footer-terms-of-use"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Terms of use
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/open-source"
+              id="footer-open-source"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Open source
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/ce-mark-label"
+              id="footer-ce-mark-label"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Legal information
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/supported-browsers"
+              id="footer-supported-browsers"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Supported browsers
+            </a>
+          </li>
+        </ul>
+        <p
+          class="nhsuk-footer__copyright"
+          id="copyright-element"
+        >
+          © Crown copyright
+        </p>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;

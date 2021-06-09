@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`404 page should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-grid-row"
+  >
+    <div
+      class="nhsuk-grid-column-full"
+    >
+      <h1
+        id="error-heading"
+      >
+        Page not found
+      </h1>
+    </div>
+    <div
+      class="nhsuk-grid-column-two-thirds"
+    >
+      <p
+        style="white-space: pre-wrap;"
+      >
+        If you entered a web address, make sure you entered it correctly.
+
+If you pasted the web address, make sure you copied the entire address. 
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

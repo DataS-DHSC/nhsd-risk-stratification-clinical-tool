@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetails should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-summary-list__row"
+  >
+    <dt
+      class="nhsuk-summary-list__key legal-list__title"
+    >
+      <img
+        alt="Catalogue number"
+        src="/icons/ce-catalogue.svg"
+      />
+    </dt>
+    <dt
+      class="nhsuk-summary-list__key"
+    >
+      Catalogue number
+    </dt>
+    <dd
+      class="nhsuk-summary-list__value"
+    >
+      COVID-19 Risk Assessment Service
+    </dd>
+  </div>
+  <div
+    class="nhsuk-summary-list__row"
+    id="release-version-number"
+  >
+    <dt
+      class="nhsuk-summary-list__key legal-list__title"
+    >
+      <img
+        alt="Lot number"
+        src="/icons/ce-lot.svg"
+      />
+    </dt>
+    <dt
+      class="nhsuk-summary-list__key"
+    >
+      Release R1
+    </dt>
+    <dd
+      class="nhsuk-summary-list__value"
+    >
+      Version ==REPLACE_RELEASE_VERSION_TOKEN==
+    </dd>
+  </div>
+</DocumentFragment>
+`;

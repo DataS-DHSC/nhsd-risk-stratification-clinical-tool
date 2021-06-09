@@ -1,0 +1,673 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`_app should match snapshot  1`] = `
+<DocumentFragment>
+  <a
+    href="#"
+    id="focus-reset"
+    style="display: none;"
+  />
+  <nav
+    class="nhsuk-cookie-banner"
+    id="nhsuk-cookie-banner"
+  >
+    <div
+      class="nhsuk-width-container"
+    >
+      <h3>
+        Cookies on the NHS website
+      </h3>
+      <p>
+        We've put some small files called cookies on your device to make our site work.
+      </p>
+      <p>
+        We'd also like to use analytics cookies. These send information about how our site is used to services called Adobe Analytics, Hotjar and Google Analytics. We use this information to improve our site.
+      </p>
+      <p>
+        Let us know if this is OK. We'll use a cookie to save your choice. You can 
+        <a
+          href="/page/cookies/policy"
+          id="nhsuk-cookie-banner__link"
+        >
+          read more about our cookies
+        </a>
+         before you choose.
+      </p>
+      <ul>
+        <li>
+          <button
+            class="nhsuk-button"
+            id="nhsuk-cookie-banner-opt-in"
+            type="submit"
+          >
+            I'm OK with analytics cookies
+          </button>
+        </li>
+        <li>
+          <button
+            class="nhsuk-button"
+            id="nhsuk-cookie-banner-opt-out"
+            type="submit"
+          >
+            Do not use analytics cookies
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header
+    class="nhsuk-header"
+    id="nhsuk-header"
+    role="banner"
+  >
+    <div
+      class="nhsuk-width-container nhsuk-header__container"
+    >
+      <div
+        class="nhsuk-header__logo nhsuk-header__logo--only"
+      >
+        <a
+          aria-label="NHS homepage"
+          class="nhsuk-header nhsuk-header__link--service"
+          id="header-home-link"
+        >
+          <svg
+            class="nhsuk-logo"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 40 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="nhsuk-logo__background"
+              d="M0 0h40v16H0z"
+            />
+            <path
+              class="nhsuk-logo__text"
+              d="M3.9 1.5h4.4l2.6 9h.1l1.8-9h3.3l-2.8 13H9l-2.7-9h-.1l-1.8 9H1.1M17.3 1.5h3.6l-1 4.9h4L25 1.5h3.5l-2.7 13h-3.5l1.1-5.6h-4.1l-1.2 5.6h-3.4M37.7 4.4c-.7-.3-1.6-.6-2.9-.6-1.4 0-2.5.2-2.5 1.3 0 1.8 5.1 1.2 5.1 5.1 0 3.6-3.3 4.5-6.4 4.5-1.3 0-2.9-.3-4-.7l.8-2.7c.7.4 2.1.7 3.2.7s2.8-.2 2.8-1.5c0-2.1-5.1-1.3-5.1-5 0-3.4 2.9-4.4 5.8-4.4 1.6 0 3.1.2 4 .6"
+            />
+            <image
+              alt="NHS Logo"
+              src="https://assets.nhs.uk/images/nhs-logo.png"
+              xlink:href=""
+            />
+          </svg>
+          <span
+            class="nhsuk-header__service-name"
+          >
+            COVID-19 Clinical Risk Assessment Tool
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="top-banner"
+    >
+      <div
+        class="nhsuk-width-container"
+        id="beta-warning-banner"
+      >
+        <strong
+          class="status-box status-box-blue"
+        >
+          BETA
+        </strong>
+        <span>
+           We want to hear from you. Give us 
+          <a
+            href="/ras/page/feedback"
+            id="beta-warning-banner-link"
+            rel="noreferrer noopener nofollow"
+            target="_blank"
+          >
+            feedback
+          </a>
+           to help us improve this service.
+        </span>
+      </div>
+    </div>
+  </header>
+  <div
+    class="nhsuk-width-container "
+  >
+    <main
+      class="nhsuk-main-wrapper "
+      id="maincontent"
+    >
+      <div
+        class="nhsuk-grid-row"
+      >
+        <div
+          class="nhsuk-grid-column-full"
+        >
+          <h1
+            class="page-title"
+            id="failed-to-generate-score-heading"
+          >
+            Failed to generate a result
+          </h1>
+          <h2
+            id="reasons-for-failure-heading"
+          >
+            This might be because
+          </h2>
+          <ul>
+            <li>
+              There is a temporary fault with this service, or
+            </li>
+            <li>
+              You have been linked to this service incorrectly
+            </li>
+          </ul>
+          <h2
+            id="other-options-heading"
+          >
+            Please try the following options instead
+          </h2>
+          <ul>
+            <li>
+              Try again later
+            </li>
+          </ul>
+        </div>
+        <div
+          class="nhsuk-grid-column-two-thirds"
+        >
+          <p
+            id="temporary-problem-message"
+          >
+            If you see this message consistently, please contact the 
+            <a
+              href="https://www.nhs.uk/contact-us/covid-risk?correlationId=ead1c4fe"
+              id="helpdesk-link"
+              rel="noreferrer nofollow noopener"
+              target="_blank"
+            >
+              helpdesk
+            </a>
+             and quote correlation id: ead1c4fe
+          </p>
+          <a
+            class="nhsuk-u-margin-top-5 nhsuk-u-font-size-19"
+            href="/ras/qcovid"
+            id="new-assessment-link"
+          >
+            Start a new COVID-19 risk assessment
+          </a>
+        </div>
+      </div>
+      <div
+        class="nhsuk-review-date"
+        id="review-date"
+      >
+        <p
+          class="nhsuk-body-s"
+        >
+          Page last reviewed: 1 December 2020
+          <br />
+          Next review due: 23 December 2023
+        </p>
+      </div>
+    </main>
+  </div>
+  <footer>
+    <div
+      class="nhsuk-footer"
+    >
+      <div
+        class="nhsuk-width-container"
+      >
+        <ul
+          class="nhsuk-footer__list"
+          id="footer-list"
+        >
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="https://digital.nhs.uk/coronavirus/risk-assessment/clinical-tool/guidance-for-clinicians"
+              id="footer-clinical-guidance"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Clinical Guidance
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="https://digital.nhs.uk/coronavirus/risk-assessment/clinical-tool/information-for-patients"
+              id="footer-guidance-for-patients"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Guidance for patients
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/cookies/policy"
+              id="footer-cookies-policy"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Cookies
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="https://www.nhs.uk/contact-us/covid-risk"
+              id="footer-contact-us"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Contact us
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/accessibility"
+              id="footer-accessibility-statement"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Accessibility statement
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/terms-of-use"
+              id="footer-terms-of-use"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Terms of use
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/open-source"
+              id="footer-open-source"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Open source
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/ce-mark-label"
+              id="footer-ce-mark-label"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Legal information
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/supported-browsers"
+              id="footer-supported-browsers"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Supported browsers
+            </a>
+          </li>
+        </ul>
+        <p
+          class="nhsuk-footer__copyright"
+          id="copyright-element"
+        >
+          © Crown copyright
+        </p>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`_app should match snapshot if error occurs 1`] = `
+<DocumentFragment>
+  <a
+    href="#"
+    id="focus-reset"
+    style="display: none;"
+  />
+  <nav
+    class="nhsuk-cookie-banner"
+    id="nhsuk-cookie-banner"
+  >
+    <div
+      class="nhsuk-width-container"
+    >
+      <h3>
+        Cookies on the NHS website
+      </h3>
+      <p>
+        We've put some small files called cookies on your device to make our site work.
+      </p>
+      <p>
+        We'd also like to use analytics cookies. These send information about how our site is used to services called Adobe Analytics, Hotjar and Google Analytics. We use this information to improve our site.
+      </p>
+      <p>
+        Let us know if this is OK. We'll use a cookie to save your choice. You can 
+        <a
+          href="/page/cookies/policy"
+          id="nhsuk-cookie-banner__link"
+        >
+          read more about our cookies
+        </a>
+         before you choose.
+      </p>
+      <ul>
+        <li>
+          <button
+            class="nhsuk-button"
+            id="nhsuk-cookie-banner-opt-in"
+            type="submit"
+          >
+            I'm OK with analytics cookies
+          </button>
+        </li>
+        <li>
+          <button
+            class="nhsuk-button"
+            id="nhsuk-cookie-banner-opt-out"
+            type="submit"
+          >
+            Do not use analytics cookies
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header
+    class="nhsuk-header"
+    id="nhsuk-header"
+    role="banner"
+  >
+    <div
+      class="nhsuk-width-container nhsuk-header__container"
+    >
+      <div
+        class="nhsuk-header__logo nhsuk-header__logo--only"
+      >
+        <a
+          aria-label="NHS homepage"
+          class="nhsuk-header nhsuk-header__link--service"
+          id="header-home-link"
+        >
+          <svg
+            class="nhsuk-logo"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 40 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="nhsuk-logo__background"
+              d="M0 0h40v16H0z"
+            />
+            <path
+              class="nhsuk-logo__text"
+              d="M3.9 1.5h4.4l2.6 9h.1l1.8-9h3.3l-2.8 13H9l-2.7-9h-.1l-1.8 9H1.1M17.3 1.5h3.6l-1 4.9h4L25 1.5h3.5l-2.7 13h-3.5l1.1-5.6h-4.1l-1.2 5.6h-3.4M37.7 4.4c-.7-.3-1.6-.6-2.9-.6-1.4 0-2.5.2-2.5 1.3 0 1.8 5.1 1.2 5.1 5.1 0 3.6-3.3 4.5-6.4 4.5-1.3 0-2.9-.3-4-.7l.8-2.7c.7.4 2.1.7 3.2.7s2.8-.2 2.8-1.5c0-2.1-5.1-1.3-5.1-5 0-3.4 2.9-4.4 5.8-4.4 1.6 0 3.1.2 4 .6"
+            />
+            <image
+              alt="NHS Logo"
+              src="https://assets.nhs.uk/images/nhs-logo.png"
+              xlink:href=""
+            />
+          </svg>
+          <span
+            class="nhsuk-header__service-name"
+          >
+            COVID-19 Clinical Risk Assessment Tool
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="top-banner"
+    >
+      <div
+        class="nhsuk-width-container"
+        id="beta-warning-banner"
+      >
+        <strong
+          class="status-box status-box-blue"
+        >
+          BETA
+        </strong>
+        <span>
+           We want to hear from you. Give us 
+          <a
+            href="/ras/page/feedback"
+            id="beta-warning-banner-link"
+            rel="noreferrer noopener nofollow"
+            target="_blank"
+          >
+            feedback
+          </a>
+           to help us improve this service.
+        </span>
+      </div>
+    </div>
+  </header>
+  <div
+    class="nhsuk-width-container "
+  >
+    <main
+      class="nhsuk-main-wrapper "
+      id="maincontent"
+    >
+      <div
+        class="nhsuk-grid-row"
+      >
+        <div
+          class="nhsuk-grid-column-full"
+        >
+          <h1
+            id="error-heading"
+          >
+            Something went wrong
+          </h1>
+        </div>
+        <div
+          class="nhsuk-grid-column-two-thirds"
+        >
+          <p
+            id="temporary-problem-message"
+          >
+            Sorry, an error has occurred with the service. This is usually a temporary problem, but if it continues you should let our Helpdesk know.
+            <br />
+            <br />
+            If you need to contact the Helpdesk:
+            <br />
+            <br />
+            You may first need to 
+            <a
+              href="/ras/ip"
+              rel="noreferrer nofollow noopener"
+              target="_blank"
+            >
+              find your IP address (opens in new window)
+            </a>
+             and enter that as well as your Correlation ID: ead1c4fe in ‘Your message for us’ when you 
+            <a
+              href="https://www.nhs.uk/contact-us/covid-risk"
+              id="helpdesk-link"
+              rel="noreferrer nofollow noopener"
+              target="_blank"
+            >
+              complete the helpdesk contact form (opens in new window)
+            </a>
+          </p>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer>
+    <div
+      class="nhsuk-footer"
+    >
+      <div
+        class="nhsuk-width-container"
+      >
+        <ul
+          class="nhsuk-footer__list"
+          id="footer-list"
+        >
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="https://digital.nhs.uk/coronavirus/risk-assessment/clinical-tool/guidance-for-clinicians"
+              id="footer-clinical-guidance"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Clinical Guidance
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="https://digital.nhs.uk/coronavirus/risk-assessment/clinical-tool/information-for-patients"
+              id="footer-guidance-for-patients"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Guidance for patients
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/cookies/policy"
+              id="footer-cookies-policy"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Cookies
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="https://www.nhs.uk/contact-us/covid-risk"
+              id="footer-contact-us"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Contact us
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/accessibility"
+              id="footer-accessibility-statement"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Accessibility statement
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/terms-of-use"
+              id="footer-terms-of-use"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Terms of use
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/open-source"
+              id="footer-open-source"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Open source
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/ce-mark-label"
+              id="footer-ce-mark-label"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Legal information
+            </a>
+          </li>
+          <li
+            class="nhsuk-footer__list-item"
+          >
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="/page/supported-browsers"
+              id="footer-supported-browsers"
+              rel="noopener nofollow noreferrer"
+              target="docs"
+            >
+              Supported browsers
+            </a>
+          </li>
+        </ul>
+        <p
+          class="nhsuk-footer__copyright"
+          id="copyright-element"
+        >
+          © Crown copyright
+        </p>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;

@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegulatoryInformation should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <p>
+        This software product has been designed according to:
+      </p>
+      <dl
+        class="nhsuk-summary-list"
+      >
+        <div
+          class="nhsuk-summary-list__row"
+        >
+          <dt
+            class="nhsuk-summary-list__key legal-list__title"
+          />
+          <dt
+            class="nhsuk-summary-list__key"
+          >
+            ISO 13485:2016
+          </dt>
+          <dd
+            class="nhsuk-summary-list__value"
+          >
+            Medical devices - Quality management systems - Requirements for regulatory purposes.
+          </dd>
+        </div>
+        <div
+          class="nhsuk-summary-list__row"
+        >
+          <dt
+            class="nhsuk-summary-list__key legal-list__title"
+          />
+          <dt
+            class="nhsuk-summary-list__key"
+          >
+            <a
+              href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb0129-clinical-risk-management-its-application-in-the-manufacture-of-health-it-systems"
+            >
+              DBC0129
+            </a>
+          </dt>
+          <dd
+            class="nhsuk-summary-list__value"
+          >
+            Clinical Risk Management: its Application in the Manufacture of Health IT Systems.
+          </dd>
+        </div>
+        <div
+          class="nhsuk-summary-list__row"
+        >
+          <dt
+            class="nhsuk-summary-list__key legal-list__title"
+          />
+          <dt
+            class="nhsuk-summary-list__key"
+          >
+            <a
+              href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb0160-clinical-risk-management-its-application-in-the-deployment-and-use-of-health-it-systems"
+            >
+              DCB0160
+            </a>
+          </dt>
+          <dd
+            class="nhsuk-summary-list__value"
+          >
+            Clinical Risk Management: its Application in the Deployment and Use of Health IT Systems
+          </dd>
+        </div>
+        <div
+          class="nhsuk-summary-list__row"
+        >
+          <dt
+            class="nhsuk-summary-list__key legal-list__title"
+          />
+          <dt
+            class="nhsuk-summary-list__key"
+          >
+            IEC 62304:2006 Amd 1:2015
+          </dt>
+          <dd
+            class="nhsuk-summary-list__value"
+          >
+            Medical device software – Software lifecycle processes.
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </body>,
+  "container": <div>
+    <p>
+      This software product has been designed according to:
+    </p>
+    <dl
+      class="nhsuk-summary-list"
+    >
+      <div
+        class="nhsuk-summary-list__row"
+      >
+        <dt
+          class="nhsuk-summary-list__key legal-list__title"
+        />
+        <dt
+          class="nhsuk-summary-list__key"
+        >
+          ISO 13485:2016
+        </dt>
+        <dd
+          class="nhsuk-summary-list__value"
+        >
+          Medical devices - Quality management systems - Requirements for regulatory purposes.
+        </dd>
+      </div>
+      <div
+        class="nhsuk-summary-list__row"
+      >
+        <dt
+          class="nhsuk-summary-list__key legal-list__title"
+        />
+        <dt
+          class="nhsuk-summary-list__key"
+        >
+          <a
+            href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb0129-clinical-risk-management-its-application-in-the-manufacture-of-health-it-systems"
+          >
+            DBC0129
+          </a>
+        </dt>
+        <dd
+          class="nhsuk-summary-list__value"
+        >
+          Clinical Risk Management: its Application in the Manufacture of Health IT Systems.
+        </dd>
+      </div>
+      <div
+        class="nhsuk-summary-list__row"
+      >
+        <dt
+          class="nhsuk-summary-list__key legal-list__title"
+        />
+        <dt
+          class="nhsuk-summary-list__key"
+        >
+          <a
+            href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb0160-clinical-risk-management-its-application-in-the-deployment-and-use-of-health-it-systems"
+          >
+            DCB0160
+          </a>
+        </dt>
+        <dd
+          class="nhsuk-summary-list__value"
+        >
+          Clinical Risk Management: its Application in the Deployment and Use of Health IT Systems
+        </dd>
+      </div>
+      <div
+        class="nhsuk-summary-list__row"
+      >
+        <dt
+          class="nhsuk-summary-list__key legal-list__title"
+        />
+        <dt
+          class="nhsuk-summary-list__key"
+        >
+          IEC 62304:2006 Amd 1:2015
+        </dt>
+        <dd
+          class="nhsuk-summary-list__value"
+        >
+          Medical device software – Software lifecycle processes.
+        </dd>
+      </div>
+    </dl>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

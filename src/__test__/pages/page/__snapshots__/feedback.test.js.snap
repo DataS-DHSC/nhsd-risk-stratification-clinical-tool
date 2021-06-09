@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`feedback should match snapshot should match snapshot 1`] = `
+<DocumentFragment>
+  <h1>
+    Loading survey
+  </h1>
+</DocumentFragment>
+`;

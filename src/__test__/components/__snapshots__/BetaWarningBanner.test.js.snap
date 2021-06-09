@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BetaWarningBanner should match snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="top-banner"
+  >
+    <div
+      class="nhsuk-width-container"
+      id="beta-warning-banner"
+    >
+      <strong
+        class="status-box status-box-blue"
+      >
+        BETA
+      </strong>
+      <span>
+         We want to hear from you. Give us 
+        <a
+          href="/ras/page/feedback"
+          id="beta-warning-banner-link"
+          rel="noreferrer noopener nofollow"
+          target="_blank"
+        >
+          feedback
+        </a>
+         to help us improve this service.
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

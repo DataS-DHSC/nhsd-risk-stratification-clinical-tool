@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContextHelp should match snapshot for title link 1`] = `
+<DocumentFragment>
+  <a
+    href="https://digital.nhs.uk/coronavirus/risk-assessment/clinical-tool/guidance-for-clinicians#patient-details"
+    rel="opener"
+    target="_blank"
+  >
+    Patient details help
+  </a>
+</DocumentFragment>
+`;
+
+exports[`ContextHelp should match snapshot for top link 1`] = `
+<DocumentFragment>
+  <a
+    href="https://digital.nhs.uk/coronavirus/risk-assessment/clinical-tool/guidance-for-clinicians#top"
+    rel="opener"
+    target="_blank"
+  >
+    More help is available
+  </a>
+</DocumentFragment>
+`;

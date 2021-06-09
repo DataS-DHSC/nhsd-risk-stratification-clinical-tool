@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideNav should match snapshot with child elements 1`] = `
+<DocumentFragment>
+  <div
+    class="article-nav"
+  >
+    <h2
+      class="article-nav__title"
+    >
+       Page contents
+    </h2>
+    <nav
+      aria-label="Pages in this guide"
+      class="nhsuk-contents-list article-nav-list"
+      role="navigation"
+    >
+      <ol
+        class="nhsuk-contents-list__list"
+      >
+        <li
+          class="nhsuk-contents-list__item article-nav-list__item"
+        >
+          <a
+            class="nhsuk-contents-list__link"
+            href="#"
+            rest="[object Object]"
+          >
+            Link
+          </a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SideNav should match snapshot with no child elements 1`] = `
+<DocumentFragment>
+  <div
+    class="article-nav"
+  >
+    <h2
+      class="article-nav__title"
+    >
+       Page contents
+    </h2>
+    <nav
+      aria-label="Pages in this guide"
+      class="nhsuk-contents-list article-nav-list"
+      role="navigation"
+    >
+      <ol
+        class="nhsuk-contents-list__list"
+      />
+    </nav>
+  </div>
+</DocumentFragment>
+`;

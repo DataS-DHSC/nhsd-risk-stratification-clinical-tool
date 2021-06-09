@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectField should match snapshot when there is no default nor prevData value 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-form-group"
+  >
+    <label
+      class="nhsuk-label"
+      for="testValueId"
+      id="testValueId--label"
+    >
+      testLabel
+    </label>
+    <select
+      aria-labelledby="testValueId--label"
+      class="nhsuk-select nhsuk-select"
+      id="testValueId"
+      name="testValueId"
+    >
+      <option
+        selected=""
+        value=""
+      >
+        Please select
+      </option>
+      <optgroup
+        label="subGroup1"
+      >
+        <option
+          value="sub1value1"
+        >
+          Value11
+        </option>
+        <option
+          value="sub1value2"
+        >
+          Value12
+        </option>
+      </optgroup>
+      <optgroup
+        label="subGroup2"
+      >
+        <option
+          value="sub2value1"
+        >
+          Value21
+        </option>
+        <option
+          value="sub2value2"
+        >
+          Value22
+        </option>
+      </optgroup>
+    </select>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SelectField should take its value from prevData rather than the default 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-form-group"
+  >
+    <label
+      class="nhsuk-label"
+      for="testValueId"
+      id="testValueId--label"
+    >
+      testLabel
+    </label>
+    <select
+      aria-labelledby="testValueId--label"
+      class="nhsuk-select nhsuk-select"
+      id="testValueId"
+      name="testValueId"
+    >
+      <option
+        value=""
+      >
+        Please select
+      </option>
+      <optgroup
+        label="subGroup1"
+      >
+        <option
+          selected=""
+          value="sub1value1"
+        >
+          Value11
+        </option>
+        <option
+          value="sub1value2"
+        >
+          Value12
+        </option>
+      </optgroup>
+      <optgroup
+        label="subGroup2"
+      >
+        <option
+          value="sub2value1"
+        >
+          Value21
+        </option>
+        <option
+          value="sub2value2"
+        >
+          Value22
+        </option>
+      </optgroup>
+    </select>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SelectField should take the default value when the field is not in prevData 1`] = `
+<DocumentFragment>
+  <div
+    class="nhsuk-form-group"
+  >
+    <label
+      class="nhsuk-label"
+      for="testValueId"
+      id="testValueId--label"
+    >
+      testLabel
+    </label>
+    <select
+      aria-labelledby="testValueId--label"
+      class="nhsuk-select nhsuk-select"
+      id="testValueId"
+      name="testValueId"
+    >
+      <option
+        selected=""
+        value=""
+      >
+        Please select
+      </option>
+      <optgroup
+        label="subGroup1"
+      >
+        <option
+          value="sub1value1"
+        >
+          Value11
+        </option>
+        <option
+          value="sub1value2"
+        >
+          Value12
+        </option>
+      </optgroup>
+      <optgroup
+        label="subGroup2"
+      >
+        <option
+          value="sub2value1"
+        >
+          Value21
+        </option>
+        <option
+          value="sub2value2"
+        >
+          Value22
+        </option>
+      </optgroup>
+    </select>
+  </div>
+</DocumentFragment>
+`;
